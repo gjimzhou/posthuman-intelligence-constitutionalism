@@ -7,33 +7,48 @@ Junliang Zhou · Working Paper · September 2026
 
 ## 阅读 / Read
 
-| Language | Markdown | LaTeX | PDF |
-|---|---|---|---|
-| 中文 | **[阅读全文](paper.zh.md)** | [paper.zh.tex](paper.zh.tex) | [paper.zh.pdf](paper.zh.pdf) |
-| English | **[Read the full paper](paper.en.md)** | [paper.en.tex](paper.en.tex) | [paper.en.pdf](paper.en.pdf) |
+每一种发布格式都保持**中文 / English 成对**；正文内容以两份 Markdown 为唯一内容源（canonical sources），其余格式自动生成。
 
-GitHub 上优先阅读 Markdown；PDF 由 GitHub Actions 自动构建并与两份 Markdown 正文保持同步。  
-For browser reading, use the Markdown editions. GitHub Actions automatically rebuilds the paired LaTeX and PDF editions from the two canonical Markdown sources.
+| Format | 中文 | English |
+|---|---|---|
+| Markdown | **[paper.zh.md](paper.zh.md)** | **[paper.en.md](paper.en.md)** |
+| LaTeX | [paper.zh.tex](paper.zh.tex) | [paper.en.tex](paper.en.tex) |
+| PDF | [paper.zh.pdf](paper.zh.pdf) | [paper.en.pdf](paper.en.pdf) |
+| HTML | [paper.zh.html](paper.zh.html) | [paper.en.html](paper.en.html) |
+| Word / DOCX | [paper.zh.docx](paper.zh.docx) | [paper.en.docx](paper.en.docx) |
+
+GitHub 上优先阅读 Markdown 或 HTML；PDF 适合排版阅读与打印；DOCX 适合批注和继续编辑。GitHub Actions 会从两份 canonical Markdown 自动重建其余全部格式，因此不会把某一种导出格式当作独立稿件维护。
+
+For browser reading, use the Markdown or HTML editions. PDF is intended for typeset reading and printing, while DOCX is provided for editing and annotation. All non-Markdown editions are regenerated automatically from the paired canonical Markdown sources.
 
 ## 双语规则 / Bilingual convention
 
-中文版以自然中文为正文，专业术语采用 **中文（English term）** 的形式；数学公式、专名与参考文献原题保留必要的英文表达。英文版为纯英文正文，不夹中文。两版采用相同的 27 个章节锚点、相同的论证顺序、相同的公式结构、相同的六项基础公理与同一组 15 条参考文献。
+中文版以自然中文为正文。真正的专业概念在首次出现或需要消除歧义时采用 **中文（English term）**，例如“基质独立性（substrate independence）”“非支配（non-domination）”；不对普通名词机械重复括注，也不把整句翻成中英混排。数学公式、专名、论文题目与必要缩写保留英文。
 
-The Chinese edition uses natural Chinese prose with technical vocabulary presented as **Chinese (English term)** where useful. The English edition contains English prose only. Both editions share the same 27-section architecture, argument order, equation structure, six foundational axioms, and 15 references.
+英文版为纯英文正文，不夹中文。构建脚本会自动拒绝英文 canonical source 中的 CJK 字符。
+
+两版必须保持：
+- 相同的 27 个章节锚点与论证顺序；
+- 相同的数学公式与六项基础公理；
+- 相同的参考文献编号与引用关系；
+- 相同的发布格式集合：Markdown / LaTeX / PDF / HTML / DOCX。
+
+The Chinese edition uses natural Chinese prose. Genuine technical concepts are presented as **Chinese (English term)** on first or otherwise useful occurrence, rather than mechanically annotating ordinary words. The English edition contains English prose only. Both editions share the same 27-section architecture, argument order, equation structure, six foundational axioms, reference numbering, and publication formats.
 
 ## 文件结构 / Repository structure
 
 - **paper.zh.md** — 中文 canonical content
 - **paper.en.md** — English canonical content
-- **paper.zh.tex** — generated Chinese LaTeX
-- **paper.en.tex** — generated English LaTeX
-- **paper.zh.pdf** — generated Chinese PDF
-- **paper.en.pdf** — generated English PDF
-- **scripts/build_tex.py** — validates bilingual alignment and regenerates both LaTeX editions
-- **.github/workflows/build-bilingual.yml** — builds and commits both PDFs
+- **paper.zh.tex / paper.en.tex** — generated paired LaTeX editions
+- **paper.zh.pdf / paper.en.pdf** — generated paired PDF editions
+- **paper.zh.html / paper.en.html** — generated paired standalone HTML editions
+- **paper.zh.docx / paper.en.docx** — generated paired Word editions
+- **scripts/build_tex.py** — validates bilingual alignment and regenerates LaTeX
+- **scripts/build_formats.py** — regenerates paired HTML and DOCX
+- **.github/workflows/build-bilingual.yml** — validates, builds, uploads, and commits the synchronized bilingual document set
 - **Makefile** — local bilingual build commands
 
-**paper.zh.md** and **paper.en.md** are the content sources of truth. Generated LaTeX/PDF files should not be edited as independent manuscripts; regenerate them from the paired Markdown sources.
+Only **paper.zh.md** and **paper.en.md** should be edited as manuscript content. Generated files should be rebuilt rather than independently edited.
 
 ## 核心论点 / Core thesis
 
@@ -43,16 +58,22 @@ The paper develops a constitutional framework for a civilization containing mult
 
 ## Build
 
-Requirements: Python 3, XeLaTeX, Noto Serif, Noto Sans, Noto CJK fonts, and DejaVu Sans Mono.
+Requirements: Python 3, Pandoc, XeLaTeX, Noto Serif, Noto Sans, Noto CJK fonts, and DejaVu Sans Mono.
+
+Build everything:
 
     make
 
-or:
+Build only synchronized LaTeX:
 
-    python3 scripts/build_tex.py
-    xelatex paper.en.tex
-    xelatex paper.en.tex
-    xelatex paper.zh.tex
-    xelatex paper.zh.tex
+    make tex
 
-Every push that changes either canonical Markdown edition or the build script triggers the bilingual build workflow. The workflow validates language/section/reference alignment, regenerates both LaTeX files, compiles both PDFs, uploads them as an Actions artifact, and commits synchronized generated outputs back to **main**.
+Build HTML + DOCX:
+
+    make formats
+
+Build PDFs (regenerates LaTeX first):
+
+    make pdf
+
+Every push that changes either canonical Markdown edition or the document build system triggers the bilingual workflow. It validates language/section/reference alignment, regenerates LaTeX, HTML, and DOCX, compiles both PDFs, uploads the complete bilingual document set as an Actions artifact, and commits generated outputs back to **main**.
