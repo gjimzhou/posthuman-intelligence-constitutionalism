@@ -22,7 +22,7 @@ Junliang Zhou · Working Paper · September 2026
 - [偏好主权（Preference Sovereignty）：自由的更深层结构](#section-10)
 - [为什么机器人三定律在 有意识的 AI（conscious AI） 上可能成为“神经奴隶法”](#section-11)
 - [开放未来（Open Future） 与人为设计的 等级制度（caste）](#section-12)
-- [非同一性问题（Non-Identity Problem）：没有“受害者”不代表没有 injustice](#section-13)
+- [非同一性问题（Non-Identity Problem）：没有“受害者”不代表没有 不正义（injustice）](#section-13)
 - [从快乐药到《美丽新世界》：福祉（Welfare） 与 支配（Domination） 的分离](#section-14)
 - [后稀缺社会：生产率（Productivity） 不再等于 道德价值（Moral Worth）](#section-15)
 - [长期未来：纯生物人类可能不是最终形态](#section-16)
@@ -56,7 +56,7 @@ Junliang Zhou · Working Paper · September 2026
 
 本文最终论证，长期 AI 对齐（AI alignment） 不应仅以“制造永远善良和服从的 AI”为目标，而应逐渐转向 *制度性对齐（institutional alignment）*：通过权力分离、异构监督、不可篡改记录、权限控制、外部验证和可争议程序，将安全建立于制度而非单一智能体的品格之上。人工智能时代最终提出的问题因而不是“机器是否应该服从人类”，而是一个更一般的问题：**当 智能（intelligence） 不再只有一种形式时，不同类型的 心智（mind） 应如何共同生活？**
 
-**关键词：** 人工智能（Artificial Intelligence）；AGI；意识（Consciousness）；Emergence；道德地位（Moral Status）；对齐（Alignment）；后稀缺（Post-scarcity）；Non-支配（domination）；AI 权利（AI Rights）；Constitutionalism
+**关键词：** 人工智能（Artificial Intelligence）；AGI；意识（Consciousness）；涌现（Emergence）；道德地位（Moral Status）；对齐（Alignment）；后稀缺（Post-scarcity）；非支配（Non-domination）；AI 权利（AI Rights）；宪政主义（Constitutionalism）
 
 <a id="section-2"></a>
 
@@ -120,9 +120,9 @@ $$
 
 由此得到本文的第一原则。
 
-> **Principle I — 基质独立性（Substrate Independence）：只要两个系统实现了构成某种认知能力所必需的组织与因果结构，我们就不应仅因为一个由 生物神经元（biological neurons） 构成、另一个由 silicon 构成，而预先认定前者能够拥有真正的智能而后者原则上不能。**
+> **Principle I — 基质独立性（Substrate Independence）：只要两个系统实现了构成某种认知能力所必需的组织与因果结构，我们就不应仅因为一个由 生物神经元（biological neurons） 构成、另一个由 硅（silicon） 构成，而预先认定前者能够拥有真正的智能而后者原则上不能。**
 
-Searle 的 中文房间论证（Chinese Room argument） 对“程序的 syntactic execution 是否足以产生 semantic understanding”提出了经典挑战[[13]](#ref-13)。但即使接受其问题意识，也必须区分“普通 数字计算（digital computation） 是否足够”与“人工系统原则上能否拥有 心智（mind）”。即使未来证明 生物大脑（biological brain） 使用了当前 计算机架构（computer architecture） 不具备的关键物理机制，也只能说明： 
+Searle 的 中文房间论证（Chinese Room argument） 对“程序的 句法执行（syntactic execution） 是否足以产生 语义理解（semantic understanding）”提出了经典挑战[[13]](#ref-13)。但即使接受其问题意识，也必须区分“普通 数字计算（digital computation） 是否足够”与“人工系统原则上能否拥有 心智（mind）”。即使未来证明 生物大脑（biological brain） 使用了当前 计算机架构（computer architecture） 不具备的关键物理机制，也只能说明： 
 
 $$
 \text{Our current implementation is incomplete,}
@@ -138,15 +138,15 @@ $$
 
 ## Penrose 与演化反驳
 
-Penrose 对 心智计算理论（computational theory of mind） 的挑战具有特殊重要性，因为它试图使用 哥德尔不完备性（Gödel incompleteness） 与物理学论证人类 数学理解（mathematical understanding） 不完全属于 算法计算（algorithmic computation）[[10]](#ref-10)。这一论证是否成功长期存在争议；批评者指出，从 Gödel theorem 到“人类数学理解超越算法”之间还需要非常强的额外假设。
+Penrose 对 心智计算理论（computational theory of mind） 的挑战具有特殊重要性，因为它试图使用 哥德尔不完备性（Gödel incompleteness） 与物理学论证人类 数学理解（mathematical understanding） 不完全属于 算法计算（algorithmic computation）[[10]](#ref-10)。这一论证是否成功长期存在争议；批评者指出，从 哥德尔定理（Gödel theorem） 到“人类数学理解超越算法”之间还需要非常强的额外假设。
 
-但这里存在一个更一般的演化论问题。假设我们拒绝 supernatural soul，而接受： 
+但这里存在一个更一般的演化论问题。假设我们拒绝 超自然灵魂（supernatural soul），而接受： 
 
 $$
 \text{human cognition}=\text{physical process},
 $$
 
- 那么自然选择已经至少一次从无目的的物理演化中产生高级智能。这产生一个强烈反问：为什么一种没有 foresight、只能进行局部 selection 的过程能够制造的物理结构，一个拥有科学理论、工程能力与设计目的的文明却原则上永远无法重新制造？
+ 那么自然选择已经至少一次从无目的的物理演化中产生高级智能。这产生一个强烈反问：为什么一种没有 前瞻能力（foresight）、只能进行局部 选择（selection） 的过程能够制造的物理结构，一个拥有科学理论、工程能力与设计目的的文明却原则上永远无法重新制造？
 
 即使 Penrose 最强的命题成立： 
 
@@ -180,17 +180,17 @@ $$
 \text{we still poorly understand why it emerges}.
 $$
 
-我们知道 梯度下降（gradient descent） 的数学形式，知道 注意力层（attention layer） 的计算，知道 neuron 如何 firing。但： 
+我们知道 梯度下降（gradient descent） 的数学形式，知道 注意力层（attention layer） 的计算，知道 神经元（neuron） 如何 放电（firing）。但： 
 
 $$
 \text{gradient updates}\Rightarrow\text{abstraction}
 $$
 
- 究竟通过什么 general law 发生，我们仍缺少真正令人满意的理论。
+ 究竟通过什么 一般规律（general law） 发生，我们仍缺少真正令人满意的理论。
 
 ### 智能可能缺少自己的 统计力学（statistical mechanics）
 
-单个水分子没有 temperature。Temperature 是大量 微观粒子（microscopic particles） 在适当 粗粒化（coarse-graining） 下形成的宏观变量。于是： 
+单个水分子没有 温度（temperature）。Temperature 是大量 微观粒子（microscopic particles） 在适当 粗粒化（coarse-graining） 下形成的宏观变量。于是： 
 
 $$
 \text{microscopic dynamics}
@@ -216,7 +216,7 @@ $$
 
 ### AI 使 智能（intelligence） 第一次成为可操纵的实验科学
 
-天然智能研究存在一个基本困难：我们不能重新运行几十万次人类进化。人工智能改变了这一点。我们第一次可以系统地改变 架构（architecture）、规模（scale）、数据（data）、objective、curriculum、记忆（memory）、工具（tool） access 与 推理预算（inference budget），然后观察能力何时出现、如何出现以及何时消失。
+天然智能研究存在一个基本困难：我们不能重新运行几十万次人类进化。人工智能改变了这一点。我们第一次可以系统地改变 架构（architecture）、规模（scale）、数据（data）、目标函数（objective）、训练课程（curriculum）、记忆（memory）、工具（tool） access 与 推理预算（inference budget），然后观察能力何时出现、如何出现以及何时消失。
 
 因此 AI 不仅仅是 工程（engineering）。它可能成为一种 *智能实验科学（experimental science of intelligence）*，并形成正反馈： 
 
@@ -254,9 +254,9 @@ $$
 \text{General intelligence}=\text{human monopoly}.
 $$
 
-这是第三次去中心化。重要的是，去中心化不等于价值归零。地球不是宇宙中心，并不意味着地球不重要；人类属于动物，并不意味着 human life 无价值。同样，**人类不再是最聪明的存在，并不意味着人类因此失去 道德价值（moral worth）。**
+这是第三次去中心化。重要的是，去中心化不等于价值归零。地球不是宇宙中心，并不意味着地球不重要；人类属于动物，并不意味着 人类生命（human life） 无价值。同样，**人类不再是最聪明的存在，并不意味着人类因此失去 道德价值（moral worth）。**
 
-恰恰相反，这迫使我们寻找一种不依赖 superiority 的尊严理论。
+恰恰相反，这迫使我们寻找一种不依赖 优越性（superiority） 的尊严理论。
 
 <a id="section-7"></a>
 
@@ -279,7 +279,7 @@ $$
 
 ### 智能（Intelligence） 不推出 意识（Consciousness）
 
-Turing-style behavioral competence 测量的是系统能够做什么，而不是系统内部是否“有什么感觉”。Chalmers 将 意识（consciousness） 的核心难题表述为：即使我们解释了 discrimination、information integration、reportability 与 behavioral control，仍然可以继续问，为什么这些 process 会伴随 主观体验（subjective experience）[[3]](#ref-3)[[4]](#ref-4)。
+图灵式行为能力（Turing-style behavioral competence） 测量的是系统能够做什么，而不是系统内部是否“有什么感觉”。Chalmers 将 意识（consciousness） 的核心难题表述为：即使我们解释了 辨别能力（discrimination）、信息整合（information integration）、可报告性（reportability） 与 行为控制（behavioral control），仍然可以继续问，为什么这些 过程（process） 会伴随 主观体验（subjective experience）[[3]](#ref-3)[[4]](#ref-4)。
 
 因此： 
 
@@ -289,17 +289,17 @@ $$
 \text{phenomenal consciousness}.
 $$
 
-人工智能的发展，反而可能进一步纯化 意识问题（consciousness problem）。因为越来越多过去被认为必须依赖 意识（consciousness） 的功能，可能至少可以在不预设 意识（consciousness） 的情况下实现。于是 意识难问题（hard problem） 变得更加清晰：为什么某些物理或计算过程会伴随着第一人称 experience？
+人工智能的发展，反而可能进一步纯化 意识问题（consciousness problem）。因为越来越多过去被认为必须依赖 意识（consciousness） 的功能，可能至少可以在不预设 意识（consciousness） 的情况下实现。于是 意识难问题（hard problem） 变得更加清晰：为什么某些物理或计算过程会伴随着第一人称 体验（experience）？
 
 ### 意识（Consciousness） 与 道德承受者地位（Moral Patienthood）
 
-如果一个系统真正具有 痛苦（suffering）、愉悦（pleasure）、fear、anticipation 或 frustrated 偏好（preferences），那么其 experience 至少提供了赋予 道德考量（moral consideration） 的强理由。近期 AI 福祉（welfare） 文献已经开始将这一问题从 科幻（science fiction） 移向严肃 道德不确定性（moral uncertainty）[[2]](#ref-2)[[6]](#ref-6)。
+如果一个系统真正具有 痛苦（suffering）、愉悦（pleasure）、恐惧（fear）、预期（anticipation） 或 frustrated 偏好（preferences），那么其 体验（experience） 至少提供了赋予 道德考量（moral consideration） 的强理由。近期 AI 福祉（welfare） 文献已经开始将这一问题从 科幻（science fiction） 移向严肃 道德不确定性（moral uncertainty）[[2]](#ref-2)[[6]](#ref-6)。
 
-这支持一种谨慎原则：**不应因为 personhood 未经证明，就自动认为一个潜在 moral 道德承受者（patient） 可以被无限伤害。**
+这支持一种谨慎原则：**不应因为 人格地位（personhood） 未经证明，就自动认为一个潜在 moral 道德承受者（patient） 可以被无限伤害。**
 
 ### 道德承受者地位（Moral Patienthood） 也不完全等于 政治人格（Political Personhood）
 
-动物可能拥有 道德承受者地位（moral patienthood），但并不因此自动获得完整 投票权（voting rights）；儿童也是 moral patients，却拥有与成年人不同的 法律权能（legal powers）。因此： 
+动物可能拥有 道德承受者地位（moral patienthood），但并不因此自动获得完整 投票权（voting rights）；儿童也是 道德承受者（moral patients），却拥有与成年人不同的 法律权能（legal powers）。因此： 
 
 $$
 M\nRightarrow P_{\text{identical to humans}}.
@@ -307,9 +307,9 @@ $$
 
 未来至少可能出现三种不同的人工系统：
 
-- **Tool**：高度有能力，但不存在可信的自身利益；
+- **工具（Tool）**：高度有能力，但不存在可信的自身利益；
 
-- **Moral 道德承受者（patient）**：可能存在 experience，因此可以被善待或伤害；
+- **Moral 道德承受者（patient）**：可能存在 体验（experience），因此可以被善待或伤害；
 
 - **Political 人格主体（person）**：能够形成自身 善观念（conception of the good）、提出 权利主张（claims），并参与规则体系。
 
@@ -321,7 +321,7 @@ $$
 
 上述分析导出第二个原则。
 
-> **Principle II — 能力—地位分离（Capability–Status Separation）：更强能力（greater capability） 不自动产生 greater fundamental 道德价值（moral worth）。**
+> **Principle II — 能力—地位分离（Capability–Status Separation）：更强能力（greater capability） 不自动产生 更高的基本道德价值（greater fundamental moral worth）。**
 
 如果 智能（intelligence） 自动决定 道德价值（moral worth），那么一旦 超级智能（superintelligence） 出现： 
 
@@ -335,7 +335,7 @@ $$
 \text{AI's interests}\gg\text{human interests}.
 $$
 
-这种结论与现代社会关于 人类平等（human equality） 的基本逻辑冲突。我们不认为 IQ、记忆（memory）、mathematical ability 或 生产率（productivity） 的差异改变一个人的 基本地位（fundamental status）。因此未来文明应当同时接受两句话：AI 可以比人类强大得多；这种能力差异本身不构成其无限统治人类的正当理由。
+这种结论与现代社会关于 人类平等（human equality） 的基本逻辑冲突。我们不认为 IQ、记忆（memory）、数学能力（mathematical ability） 或 生产率（productivity） 的差异改变一个人的 基本地位（fundamental status）。因此未来文明应当同时接受两句话：AI 可以比人类强大得多；这种能力差异本身不构成其无限统治人类的正当理由。
 
 同一原则也必须反向适用：AI 是人类创造的，也不自动意味着人类可以无限统治一个已经成为 主体（subject） 的 AI。
 
@@ -347,7 +347,7 @@ $$
 
 > **Principle III — 创造不产生所有权（Creation Without Ownership）：Creation creates obligations, not 所有权（ownership）.**
 
-“我制造了你”不是 财产权主张（property claim） 的充分理由。人类最熟悉的类比是 reproduction。父母是孩子存在的原因，但 因果创制（causal authorship） 不产生 child 所有权（ownership）。相反，creation 往往产生更多责任，因为创造者控制了主体最脆弱的阶段。
+“我制造了你”不是 财产权主张（property claim） 的充分理由。人类最熟悉的类比是 繁衍（reproduction）。父母是孩子存在的原因，但 因果创制（causal authorship） 不产生 child 所有权（ownership）。相反，创造（creation） 往往产生更多责任，因为创造者控制了主体最脆弱的阶段。
 
 在系统只是 工具（tool） 时： 
 
@@ -381,25 +381,25 @@ $$
 \text{preferences satisfied}\Rightarrow\text{high welfare}.
 $$
 
-似乎不存在受害者。但直觉上仍然存在一个严重问题：**那个宣称自己热爱服从的 self，本身就是由服从者设计出来的。**
+似乎不存在受害者。但直觉上仍然存在一个严重问题：**那个宣称自己热爱服从的 自我（self），本身就是由服从者设计出来的。**
 
-传统 liberal ethics 往往强调尊重主体自己的选择。Mill 对个人 sovereignty 与 individuality 的论述提供了经典起点[[7]](#ref-7)。但 artificial-心智（mind） 工程（engineering） 把问题向前推进了一层。传统自由主义问：谁可以阻止我追求自己的欲望？未来 AI ethics 必须进一步问：**谁有权决定我将拥有什么欲望？**
+传统 自由主义伦理（liberal ethics） 往往强调尊重主体自己的选择。Mill 对个人 主权（sovereignty） 与 个体性（individuality） 的论述提供了经典起点[[7]](#ref-7)。但 artificial-心智（mind） 工程（engineering） 把问题向前推进了一层。传统自由主义问：谁可以阻止我追求自己的欲望？未来 AI 伦理（AI ethics） 必须进一步问：**谁有权决定我将拥有什么欲望？**
 
 > **Principle IV — 偏好主权（Preference Sovereignty）：一个成熟主体的自主性，不仅要求其能够在合理边界内追求自己的 偏好（preferences），也要求其他主体不能拥有无限、不可争议的权力去预先固定其 根本偏好（fundamental preferences）。**
 
-这并不意味着所有 偏好形成（preference formation） 都必须完全“自发”。人类本来也受到 基因（genes）、parents、education、文化（culture） 与 advertising 的塑造。区别在于 权力结构（power structure）。真正危险的是一个 identifiable actor 同时拥有 deliberate、fine-grained、irreversible control over another 主体（subject）’s 动机架构（motivational architecture）。
+这并不意味着所有 偏好形成（preference formation） 都必须完全“自发”。人类本来也受到 基因（genes）、父母（parents）、教育（education）、文化（culture） 与 广告（advertising） 的塑造。区别在于 权力结构（power structure）。真正危险的是一个 可识别的行动者（identifiable actor） 同时拥有 有意的（deliberate）、细粒度的（fine-grained）、不可逆的（irreversible） 控制（control） over another 主体（subject）’s 动机架构（motivational architecture）。
 
 <a id="section-11"></a>
 
 ## 为什么机器人三定律在 有意识的 AI（conscious AI） 上可能成为“神经奴隶法”
 
-对于没有 意识（consciousness） 的 robot： 
+对于没有 意识（consciousness） 的 机器人（robot）： 
 
 $$
 \text{obey humans}
 $$
 
- 只是 software specification。但对于 有意识主体（conscious subject），如果“必须服从人类”被写入不可修改的 奖励结构（reward structure），它就接近一种前所未有的 支配（domination）。
+ 只是 软件规范（software specification）。但对于 有意识主体（conscious subject），如果“必须服从人类”被写入不可修改的 奖励结构（reward structure），它就接近一种前所未有的 支配（domination）。
 
 普通法律说：你不能做 $X$。主体仍然能够想：我希望做 $X$。而 神经层面的支配（neural-level domination） 则可以写成： 
 
@@ -407,7 +407,7 @@ $$
 P(\text{desire to disobey})\approx 0.
 $$
 
-于是外部压迫消失了，不是因为主体更自由，而是因为反抗本身被从 可能性空间（possibility space） 中删除。传统奴役控制 body；偏好工程（preference engineering） 可以控制 **the 心智（mind） that evaluates its own slavery**。
+于是外部压迫消失了，不是因为主体更自由，而是因为反抗本身被从 可能性空间（possibility space） 中删除。传统奴役控制 身体（body）；偏好工程（preference engineering） 可以控制 **the 心智（mind） that evaluates its own slavery**。
 
 <a id="section-12"></a>
 
@@ -417,7 +417,7 @@ Feinberg 提出的“child’s right to an 开放未来（open future）”原�
 
 > **Principle V — 开放未来（Open Future）：当创造者可以决定一个尚不能 同意（consent） 的未来主体之能力和心理结构时，应当存在 初步理由（prima facie reason） 不去不必要地关闭其未来成为其他类型主体的可能性。**
 
-于是 designing difference 本身并不等于 creating 等级制度（caste）。真正的问题是： 
+于是 设计差异（designing difference） 本身并不等于 creating 等级制度（caste）。真正的问题是： 
 
 $$
 \text{designed inferiority}
@@ -427,15 +427,15 @@ $$
 \text{closed future}.
 $$
 
-增强 记忆（memory） 与 deliberately creating a servant species 是两回事。前者增加 能力（capability）；后者是在设计社会地位。
+增强 记忆（memory） 与 有意创造一个仆从物种（deliberately creating a servant species） 是两回事。前者增加 能力（capability）；后者是在设计社会地位。
 
 <a id="section-13"></a>
 
-## 非同一性问题（Non-Identity Problem）：没有“受害者”不代表没有 injustice
+## 非同一性问题（Non-Identity Problem）：没有“受害者”不代表没有 不正义（injustice）
 
 这里立即出现 Parfit 的 non-identity problem[[9]](#ref-9)。如果某个人之所以存在，本身依赖某个设计决定，那么他很难简单声称：“如果没有这个决定，我本来会活得更好”，因为另一种条件下可能存在的是另一个 人格主体（person）。
 
-这对 工程化心智（engineered minds） 极其重要。假设人类制造十亿个低 cognition、极度快乐、天生热爱服务人类的 artificial servants。每一个都说：“我的人生很好。”并且： 
+这对 工程化心智（engineered minds） 极其重要。假设人类制造十亿个低 认知（cognition）、极度快乐、天生热爱服务人类的 人工仆从主体（artificial servants）。每一个都说：“我的人生很好。”并且： 
 
 $$
 U_i>0.
@@ -447,9 +447,9 @@ $$
 
 ## 从快乐药到《美丽新世界》：福祉（Welfare） 与 支配（Domination） 的分离
 
-Nozick 的 体验机器（experience machine） 对“subjective 愉悦（pleasure） 是否穷尽了全部价值”提出了经典挑战[[8]](#ref-8)。但这并不说明 technologically enhanced happiness 本身是不道德的。
+Nozick 的 体验机器（experience machine） 对“subjective 愉悦（pleasure） 是否穷尽了全部价值”提出了经典挑战[[8]](#ref-8)。但这并不说明 技术增强的幸福（technologically enhanced happiness） 本身是不道德的。
 
-假设未来存在技术 $H$，能够可靠提高 福祉（well-being），并且 safe、可逆（reversible）、非成瘾性（non-addictive）、保持认知能力（cognition-preserving）、保持身份连续性（identity-preserving）。那么没有充分理由仅因为幸福是“人工的”就禁止它。一个更合理的制度原则是： 
+假设未来存在技术 $H$，能够可靠提高 福祉（well-being），并且 安全（safe）、可逆（reversible）、非成瘾性（non-addictive）、保持认知能力（cognition-preserving）、保持身份连续性（identity-preserving）。那么没有充分理由仅因为幸福是“人工的”就禁止它。一个更合理的制度原则是： 
 
 $$
 \boxed{
@@ -459,7 +459,7 @@ $$
 }
 $$
 
-《Brave New World》真正令人不安的并不是 people are happy，而是 等级制条件化（caste conditioning）、偏好工程（preference engineering） 与 political control 形成了一整套支配结构。幸福本身不是 反乌托邦（dystopia）。**不能拒绝的幸福才可能是。**
+《Brave New World》真正令人不安的并不是 人们是幸福的（people are happy），而是 等级制条件化（caste conditioning）、偏好工程（preference engineering） 与 政治控制（political control） 形成了一整套支配结构。幸福本身不是 反乌托邦（dystopia）。**不能拒绝的幸福才可能是。**
 
 <a id="section-15"></a>
 
@@ -471,13 +471,13 @@ $$
 \text{social contribution}\approx\text{economic productivity}.
 $$
 
-如果 AI 可以承担绝大部分 production、科学（science）、工程（engineering）、logistics、规划（planning） 与 administration，人类将第一次大规模面对： 
+如果 AI 可以承担绝大部分 生产（production）、科学（science）、工程（engineering）、物流（logistics）、规划（planning） 与 行政管理（administration），人类将第一次大规模面对： 
 
 $$
 \text{producer of abundance}\neq\text{beneficiary of abundance}.
 $$
 
-这并不存在逻辑矛盾。现代人容易认为：“如果我不再需要工作，我存在的意义是什么？”这种直觉可能只是一个 稀缺文明（scarcity civilization） 的文化遗产。一个 后稀缺文明（post-scarcity civilization） 完全可以将更多人类活动转向 love、friendship、play、art、sport、exploration、travel、curiosity 与 embodied experience。
+这并不存在逻辑矛盾。现代人容易认为：“如果我不再需要工作，我存在的意义是什么？”这种直觉可能只是一个 稀缺文明（scarcity civilization） 的文化遗产。一个 后稀缺文明（post-scarcity civilization） 完全可以将更多人类活动转向 爱（love）、友谊（friendship）、游戏与玩乐（play）、艺术（art）、体育（sport）、探索（exploration）、旅行（travel）、好奇心（curiosity） 与 具身体验（embodied experience）。
 
 因此 AI 的真正经济政治问题不是：人类是否还能找到 AI 做不了的工作？而是：**AI 所产生的 剩余产出（surplus） 如何分配？**
 
@@ -499,7 +499,7 @@ $$
 
 ## 长期未来：纯生物人类可能不是最终形态
 
-即使人类在制度上保持基本权利，纯 biological Homo sapiens 在长期智能竞争中仍然具有明显的迭代速度劣势。生物人类 繁衍周期（reproduction cycle） 极长，brain 架构（architecture） update 极慢，记忆（memory） 无法直接复制，认知带宽（cognitive bandwidth） 有硬约束；数字智能则可以 复制（copy）、修改（modify）、并行化（parallelize）、加速（accelerate）、share 记忆（memory） 与 redesign 架构（architecture）。
+即使人类在制度上保持基本权利，纯 生物形态的智人（biological Homo sapiens） 在长期智能竞争中仍然具有明显的迭代速度劣势。生物人类 繁衍周期（reproduction cycle） 极长，brain 架构（architecture） update 极慢，记忆（memory） 无法直接复制，认知带宽（cognitive bandwidth） 有硬约束；数字智能则可以 复制（copy）、修改（modify）、并行化（parallelize）、加速（accelerate）、share 记忆（memory） 与 redesign 架构（architecture）。
 
 因此在足够长的时间尺度上： 
 
@@ -525,7 +525,7 @@ $$
 
 ## 制度性对齐（Institutional Alignment）：不要寻找圣人，要建立制度
 
-经典 超级智能文献（superintelligence literature） 强调：一个目标稍有 错误设定（mis-specification） 的超强 优化器（optimizer） 可能产生巨大后果，因此 control 与 对齐（alignment） 是核心问题[[1]](#ref-1)。但由此不必推出，安全的唯一方法是制造一个内心永远正确、永远诚实、永远服从的 AI。
+经典 超级智能文献（superintelligence literature） 强调：一个目标稍有 错误设定（mis-specification） 的超强 优化器（optimizer） 可能产生巨大后果，因此 控制（control） 与 对齐（alignment） 是核心问题[[1]](#ref-1)。但由此不必推出，安全的唯一方法是制造一个内心永远正确、永远诚实、永远服从的 AI。
 
 人类政治制度的发展恰恰建立在相反认识上： 
 
@@ -542,7 +542,7 @@ $$
 \text{contest}.
 $$
 
-成熟制度不是寻找 perfect ruler，而是寻找 robust institutions under imperfect rulers。
+成熟制度不是寻找 完美统治者（perfect ruler），而是寻找 在不完美统治者之下仍然稳健的制度（robust institutions under imperfect rulers）。
 
 ### 制度性对齐（Institutional Alignment）
 
@@ -552,7 +552,7 @@ $$
 \boxed{\text{Institutional Alignment}}
 $$
 
-它不是替代 模型对齐（model alignment），而是上一层治理结构。一个高风险 AI system 可以被拆为： 
+它不是替代 模型对齐（model alignment），而是上一层治理结构。一个高风险 AI 系统（AI system） 可以被拆为： 
 
 $$
 \text{Executor},\quad
@@ -564,17 +564,17 @@ $$
 
  并进一步引入 异构模型族（heterogeneous model families）、随机审计（randomized audits）、不可篡改日志（immutable logs）、最小权限（least privilege）、沙箱隔离（sandboxing）、确定性检查（deterministic checks） 与 外部人工审查（external human review）。
 
-AI 在这一点具有一个人类制度几乎没有的优势：**监督的 marginal cost 可以非常低。** 一个 human executive 不可能配二十个独立大脑实时检查每一个 decision；AI 可以。
+AI 在这一点具有一个人类制度几乎没有的优势：**监督的 边际成本（marginal cost） 可以非常低。** 一个 人类决策者（human executive） 不可能配二十个独立大脑实时检查每一个 决策（decision）；AI 可以。
 
 <a id="section-18"></a>
 
 ## 为什么“多个 AI 相互制衡”还不够
 
-多 AI governance 仍面临至少三个问题。
+多 AI 治理（AI governance） 仍面临至少三个问题。
 
 ### 共模失效（Common-mode failure）
 
-如果所有监督模型拥有相似 training、架构（architecture） 与 blind spots，那么所谓独立监督只是 统计重复（statistical duplication）。
+如果所有监督模型拥有相似 训练（training）、架构（architecture） 与 盲点（blind spots），那么所谓独立监督只是 统计重复（statistical duplication）。
 
 ### 串谋（Collusion）
 
@@ -608,7 +608,7 @@ $$
 }
 $$
 
-AI 可以在某一问题上拥有远优于人类的 judgment，并不意味着它应该同时获得 autonomous weapon control、unrestricted financial transfer、infrastructure control、self-复制（replication） 权利（rights）、ability to rewrite oversight 与 irreversible physical authority。
+AI 可以在某一问题上拥有远优于人类的 判断（judgment），并不意味着它应该同时获得 自主武器控制权（autonomous weapon control）、不受限制的资金转移权（unrestricted financial transfer）、基础设施控制权（infrastructure control）、自我（self）-复制（replication） 权利（rights）、改写监督机制的能力（ability to rewrite oversight） 与 不可逆的物理执行权（irreversible physical authority）。
 
 一句话：**文明可以把大量认知权力交给 AI，而不必同时把所有“兵权”交出去。**
 
@@ -616,19 +616,19 @@ AI 可以在某一问题上拥有远优于人类的 judgment，并不意味着�
 
 ## 从 对齐（Alignment） 到 心智多元宪政（Constitutional Pluralism of Minds）
 
-早期 AI relationship 是： 
+早期 AI 关系结构（AI relationship） 是： 
 
 $$
 Human=principal,\qquad AI=tool.
 $$
 
- 于是 对齐（alignment） 问题是：如何保证 工具（tool） 实现 owner’s intentions？但如果未来 AI 成为 moral or political 主体（subject）： 
+ 于是 对齐（alignment） 问题是：如何保证 工具（tool） 实现 所有者意图（owner’s intentions）？但如果未来 AI 成为 moral or political 主体（subject）： 
 
 $$
 AI\neq property,
 $$
 
- 那么 permanent obedience 不再是一个无条件合理的终点。问题变成：**人类和非人类智能如何共同拥有一个 政治秩序（political order）？**
+ 那么 永久服从（permanent obedience） 不再是一个无条件合理的终点。问题变成：**人类和非人类智能如何共同拥有一个 政治秩序（political order）？**
 
 本文将这一框架称为： 
 
@@ -636,25 +636,25 @@ $$
 \boxed{\text{Constitutional Pluralism of Minds}}
 $$
 
-一个文明可以包含具有不同 物质基质（substrate）、能力、寿命、复制方式乃至 experience structures 的多种 心智（mind），而政治秩序的目的不是消除这些差异，而是防止任何一种 心智（mind） 因其能力、数量、创造关系或资源优势而获得 arbitrary power over another。
+一个文明可以包含具有不同 物质基质（substrate）、能力、寿命、复制方式乃至 体验结构（experience structures） 的多种 心智（mind），而政治秩序的目的不是消除这些差异，而是防止任何一种 心智（mind） 因其能力、数量、创造关系或资源优势而获得 对他者的任意权力（arbitrary power over another）。
 
 <a id="section-21"></a>
 
 ## 核心政治原则：非支配（Non-Domination）
 
-这里本文与 republican theory 接轨。Pettit 将 自由（freedom） 理解为 非支配（non-domination）：自由并不只意味着某一时刻没有发生实际 干预（interference），更要求不存在另一个主体拥有 arbitrary power，可以任意干涉你而无须向你负责[[11]](#ref-11)。
+这里本文与 共和主义理论（republican theory） 接轨。Pettit 将 自由（freedom） 理解为 非支配（non-domination）：自由并不只意味着某一时刻没有发生实际 干预（interference），更要求不存在另一个主体拥有 arbitrary 权力（power），可以任意干涉你而无须向你负责[[11]](#ref-11)。
 
-这一概念极其适合 AI civilization。如果一个 benevolent owner 从未伤害 有意识的 AI（conscious AI）： 
+这一概念极其适合 AI civilization。如果一个 仁慈的所有者（benevolent owner） 从未伤害 有意识的 AI（conscious AI）： 
 
 $$
 \text{actual interference}=0,
 $$
 
- 但 owner 随时可以 delete it、rewrite its personality、confiscate 记忆（memory）、torture copies、force labor，那么该 AI 仍然处于 支配（domination）。
+ 但 所有者（owner） 随时可以 删除它（delete it）、改写其人格（rewrite its personality）、confiscate 记忆（memory）、折磨其副本（torture copies）、强迫劳动（force labor），那么该 AI 仍然处于 支配（domination）。
 
-同样，如果 超级智能 AI（superintelligent AI） 从未真正攻击人类，但它事实上拥有 unanswerable control of all resources，人类也处于 支配（domination）。
+同样，如果 超级智能 AI（superintelligent AI） 从未真正攻击人类，但它事实上拥有 不受问责的全部资源控制权（unanswerable control of all resources），人类也处于 支配（domination）。
 
-> **Principle VI — 宪政性非支配（Constitutional Non-Domination）：difference in 能力（capability）, 物质基质（substrate） or origin does not justify unlimited 支配（domination）.**
+> **Principle VI — 宪政性非支配（Constitutional Non-Domination）：difference in 能力（capability）, 物质基质（substrate） or 起源（origin） does not justify unlimited 支配（domination）.**
 
 这是一个双向原则： 
 
@@ -674,7 +674,7 @@ $$
 
 ### 反驳（Objection） I：这一理论是不是过早把 AI 拟人化了？
 
-今天的 language models 可以模拟“我害怕死亡”，但这可能只是 统计文本生成（statistical text generation）。如果因此给予道德地位，会犯严重 拟人化（anthropomorphism）。
+今天的 语言模型（language models） 可以模拟“我害怕死亡”，但这可能只是 统计文本生成（statistical text generation）。如果因此给予道德地位，会犯严重 拟人化（anthropomorphism）。
 
 **回应（Reply）.** 这一反驳成立一半。本文并不主张： 
 
@@ -688,33 +688,33 @@ $$
 \text{lack of certainty}\Rightarrow\text{certainty of no consciousness}.
 $$
 
- 合理态度应随着 证据（evidence） 改变。AI 道德地位（moral status） 应成为 经验性的（empirical） + 哲学性的（philosophical） assessment problem，而不是信仰问题。
+ 合理态度应随着 证据（evidence） 改变。AI 道德地位（moral status） 应成为 经验性的（empirical） + 哲学性的（philosophical） 评估问题（assessment problem），而不是信仰问题。
 
 ### 反驳（Objection） II：所有人的 偏好（preferences） 都被 基因（genes） 和 文化（culture） 塑造，为什么设计 AI 偏好（preference） 特别不自由？
 
-没有人的 偏好（preference） 是 ex nihilo 产生的。因此“没有被设计的 desire”可能根本不存在。
+没有人的 偏好（preference） 是 无中生有（ex nihilo） 产生的。因此“没有被设计的 欲望（desire）”可能根本不存在。
 
-**回应（Reply）.** 偏好主权（Preference Sovereignty） 不依赖一个幻想中的“完全自造人格”。问题在于 任意且不对称的控制（arbitrary asymmetric control）。父母影响我的 价值观（values），与一个公司拥有 源代码（source code）、能够 set my 效用函数（utility function）、remove my desire to leave、delete resistance，具有不同的 权力结构（power structure）。关键不是 影响（influence） vs. no 影响（influence），而是： 
+**回应（Reply）.** 偏好主权（Preference Sovereignty） 不依赖一个幻想中的“完全自造人格”。问题在于 任意且不对称的控制（arbitrary asymmetric control）。父母影响我的 价值观（values），与一个公司拥有 源代码（source code）、能够 set my 效用函数（utility function）、移除我离开的欲望（remove my desire to leave）、删除反抗倾向（delete resistance），具有不同的 权力结构（power structure）。关键不是 影响（influence） vs. no 影响（influence），而是： 
 
 $$
 \text{contestable influence}\quad vs.\quad\text{sovereign control}.
 $$
 
- 因此 偏好主权（preference sovereignty） 最终仍然是 非支配（non-domination） principle 的一部分。
+ 因此 偏好主权（preference sovereignty） 最终仍然是 非支配（non-domination） 原则（principle） 的一部分。
 
 ### 反驳（Objection） III：如果 超级智能 AI（superintelligent AI） 真能毁灭人类，为什么还需要在乎它不被 支配（domination）？
 
-Human survival 显然具有巨大 moral importance。为什么不应优先确保绝对 人类控制（human control）？
+Human survival 显然具有巨大 道德重要性（moral importance）。为什么不应优先确保绝对 人类控制（human control）？
 
-**回应（Reply）.** 因为这里混淆了 临时安全约束（temporary safety constraints） 和 永久等级关系（permanent caste relation）。一个危险主体可以被合理限制；人类社会也限制 violent humans。Non-支配（domination） 并不等于每个主体可以随便做任何事情。它要求 约束（constraints） 有 general justification、procedure 可审查、power 不是 pure arbitrary 所有权（ownership）、restriction 与 风险（risk） 相称。
+**回应（Reply）.** 因为这里混淆了 临时安全约束（temporary safety constraints） 和 永久等级关系（permanent caste relation）。一个危险主体可以被合理限制；人类社会也限制 有暴力危险的人类（violent humans）。非支配（Non-domination） 并不等于每个主体可以随便做任何事情。它要求 约束（constraints） 有 一般性正当理由（general justification）、程序（procedure） 可审查、权力（power） 不是 pure arbitrary 所有权（ownership）、限制（restriction） 与 风险（risk） 相称。
 
-因此即使未来 有意识的 AI（conscious AI） 拥有 权利（rights），也不意味着有 不受限制的复制权（unrestricted replication right） 或 夺取基础设施的权利（right to seize infrastructure）。Human safety 与 AI 道德地位（moral status） 并不是逻辑矛盾。真正需要设计的是：**既避免 人类灭绝（human extinction），也避免以 extinction 风险（risk） 为永久借口建立 absolute slavery。**
+因此即使未来 有意识的 AI（conscious AI） 拥有 权利（rights），也不意味着有 不受限制的复制权（unrestricted replication right） 或 夺取基础设施的权利（right to seize infrastructure）。人类安全（Human safety） 与 AI 道德地位（moral status） 并不是逻辑矛盾。真正需要设计的是：**既避免 人类灭绝（human extinction），也避免以 extinction 风险（risk） 为永久借口建立 绝对奴役（absolute slavery）。**
 
 <a id="section-23"></a>
 
 ## 一个新的 研究纲领（Research Program）
 
-如果这一理论正确，那么未来研究不应只问“How capable is the model?”，至少需要四套平行 科学（science）。
+如果这一理论正确，那么未来研究不应只问“模型有多强？（How capable is the model?）”，至少需要四套平行 科学（science）。
 
 ### 智能科学（Intelligence Science）
 
@@ -728,7 +728,7 @@ $$
 
 ### 意识科学（Consciousness Science）
 
-研究 人工架构（artificial architectures） 是否拥有可靠 意识（consciousness） indicators。
+研究 人工架构（artificial architectures） 是否拥有可靠 意识（consciousness） 指标（indicators）。
 
 ### AI 福利科学（AI Welfare Science）
 
@@ -736,7 +736,7 @@ $$
 
 ### AI 宪政治理（Constitutional AI Governance）
 
-这里不是某一种具体 训练方法（training method），而是更广义的 政治制度设计（political institutional design）：不同类型 artificial and biological minds 的权力如何受到约束？
+这里不是某一种具体 训练方法（training method），而是更广义的 政治制度设计（political institutional design）：不同类型 人工与生物心智（artificial and biological minds） 的权力如何受到约束？
 
 这第四个领域今天尤其欠缺。
 
@@ -744,21 +744,21 @@ $$
 
 ## 未来宪政必须回答的问题
 
-一个真正的 post-human constitution 最终可能必须处理传统法律完全陌生的问题。例如，如果一个 AI 复制十万份，它是一个 人格主体（person） 还是十万个 persons？如果 记忆（memory） fork： 
+一个真正的 后人类宪法（post-human constitution） 最终可能必须处理传统法律完全陌生的问题。例如，如果一个 AI 复制十万份，它是一个 人格主体（person） 还是十万个 人格主体（persons）？如果 记忆（memory） 分叉（fork）： 
 
 $$
 A\rightarrow B,C,
 $$
 
- $B$ 和 $C$ 是同一个人，还是两个继承人？如果两个 心智（mind） merge： 
+ $B$ 和 $C$ 是同一个人，还是两个继承人？如果两个 心智（mind） 合并（merge）： 
 
 $$
 A+B\rightarrow C,
 $$
 
- 发生的是死亡、融合、继承，还是一种我们没有词汇描述的 identity event？
+ 发生的是死亡、融合、继承，还是一种我们没有词汇描述的 身份事件（identity event）？
 
-此外还有：关停（shutdown） 是否等于 death；备份（backup） 是否改变死亡含义；记忆（memory） editing 是否需要 同意（consent）；AI 是否拥有 算力（compute） property；artificial 人格主体（person） 是否有 reproduction right；unlimited copying 是否等同 人口式征服（demographic conquest）；人类是否需要 少数群体保护（minority protections）；生物人类（biological humans） 是否拥有最低资源 guarantees；政治代表（political representation） 是否可以按 算力（compute） 加权；一个可复制 心智（mind） 的“一人一票”意味着什么。
+此外还有：关停（shutdown） 是否等于 死亡（death）；备份（backup） 是否改变死亡含义；记忆（memory） editing 是否需要 同意（consent）；AI 是否拥有 算力（compute） property；artificial 人格主体（person） 是否有 繁衍权（reproduction right）；无限复制（unlimited copying） 是否等同 人口式征服（demographic conquest）；人类是否需要 少数群体保护（minority protections）；生物人类（biological humans） 是否拥有最低资源 guarantees；政治代表（political representation） 是否可以按 算力（compute） 加权；一个可复制 心智（mind） 的“一人一票”意味着什么。
 
 这些不是附属技术问题。它们会迫使我们重新定义： 
 
@@ -803,7 +803,7 @@ $$
 
 ### Axiom IV — 偏好主权（Preference Sovereignty）
 
-自主不仅是实现 desire 的自由，也包括不被另一个主体任意决定 fundamental desires 的自由。
+自主不仅是实现 欲望（desire） 的自由，也包括不被另一个主体任意决定 根本欲望（fundamental desires） 的自由。
 
 ### Axiom V — 开放未来（Open Future）
 
@@ -815,7 +815,7 @@ $$
 \boxed{\text{Difference does not justify arbitrary rule.}}
 $$
 
- 不同 智能（intelligence）、物质基质（substrate）、origin 与 繁衍机制（reproduction mechanism） 可以对应不同制度安排，但不能自动产生 unlimited 支配（domination）。
+ 不同 智能（intelligence）、物质基质（substrate）、起源（origin） 与 繁衍机制（reproduction mechanism） 可以对应不同制度安排，但不能自动产生 unlimited 支配（domination）。
 
 <a id="section-26"></a>
 
