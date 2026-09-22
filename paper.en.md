@@ -260,12 +260,13 @@ The loss of superiority instead forces us to search for a theory of dignity that
 
 One of the most dangerous conceptual errors in AI ethics is to treat intelligence, consciousness, moral patienthood, and political personhood as if they were the same thing. This paper proposes:
 
-$$
-\begin{aligned}
-I&=\text{Intelligence}, & C&=\text{Consciousness},\\
-M&=\text{Moral Patienthood}, & P&=\text{Political Personhood}.
-\end{aligned}
-$$
+$
+I=\text{Intelligence}, \qquad C=\text{Consciousness},
+$
+
+$
+M=\text{Moral Patienthood}, \qquad P=\text{Political Personhood}.
+$
 
 and argues:
 
