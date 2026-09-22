@@ -264,12 +264,13 @@ $$
 
 关于人工智能伦理，最危险的概念混淆之一，是把 智能（intelligence）、意识（consciousness）、道德承受者地位（moral patienthood） 与 政治人格（political personhood） 当成同一件事。本文提出： 
 
-$$
-\begin{aligned}
-I&=\text{Intelligence}, & C&=\text{Consciousness},\\
-M&=\text{Moral Patienthood}, & P&=\text{Political Personhood}.
-\end{aligned}
-$$
+$
+I=\text{Intelligence}, \qquad C=\text{Consciousness},
+$
+
+$
+M=\text{Moral Patienthood}, \qquad P=\text{Political Personhood}.
+$
 
  并主张： 
 
