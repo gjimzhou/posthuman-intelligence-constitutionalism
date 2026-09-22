@@ -1,0 +1,67 @@
+name: Build bilingual paper
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "paper.zh.md"
+      - "paper.en.md"
+      - "scripts/build_tex.py"
+      - ".github/workflows/build-bilingual.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install XeLaTeX and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-xetex \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-lang-chinese \
+            fonts-noto-core \
+            fonts-noto-cjk \
+            fonts-dejavu-core
+
+      - name: Regenerate paired LaTeX sources
+        run: python3 scripts/build_tex.py
+
+      - name: Compile English PDF
+        run: |
+          xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
+          xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
+
+      - name: Compile Chinese PDF
+        run: |
+          xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
+          xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
+
+      - name: Upload bilingual PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: posthuman-intelligence-constitutionalism-bilingual
+          path: |
+            paper.en.pdf
+            paper.zh.pdf
+
+      - name: Commit generated LaTeX and PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add paper.en.tex paper.zh.tex paper.en.pdf paper.zh.pdf
+          if git diff --cached --quiet; then
+            echo "Generated files are already current."
+          else
+            git commit -m "Build synchronized bilingual LaTeX and PDFs [skip ci]"
+            git push
+          fi
