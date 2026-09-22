@@ -50,7 +50,7 @@ Junliang Zhou · Working Paper · September 2026
 
 但智能的祛魅并不意味着意识问题已经解决。本文主张严格区分 *智能（intelligence）*、*意识（consciousness）*、*道德承受者地位（moral patienthood）* 与 *政治人格（political personhood）*。一个系统具有高度能力，不足以证明其拥有主观体验；具有主观体验，也未必意味着它立即拥有与人类完全相同的政治权利。未来社会需要发展一套能够处理不同 物质基质（substrate）、不同能力、不同复制方式和不同时间尺度主体的制度理论。
 
-本文进一步提出六项核心原则：*基质独立性（substrate independence）*、*能力—地位分离（capability–status separation）*、*创造不产生所有权（creation without ownership）*、*偏好主权（preference sovereignty）*、*开放未来（open future）* 与 *宪政性非支配（constitutional non-domination）*。其中尤其重要的是：创造一个主体并不产生对其的所有权，而是产生义务；一个主体的自由不仅要求其能够满足已有偏好，而且要求其他主体不能无限制地决定它“应该拥有什么偏好”。
+本文进一步提出六项核心原则：*基质独立性（substrate independence）*、*能力—地位分离（capability–status separation）*、*创造不产生所有权（creation without ownership）*、*偏好主权（preference sovereignty）*、*开放未来（open 未来（future））* 与 *宪政性非支配（constitutional non-domination）*。其中尤其重要的是：创造一个主体并不产生对其的所有权，而是产生义务；一个主体的自由不仅要求其能够满足已有偏好，而且要求其他主体不能无限制地决定它“应该拥有什么偏好”。
 
 这一原则使人工智能伦理与 基因工程（genetic engineering）、神经技术（neurotechnology）、幸福技术（happiness technology） 以及 后稀缺政治经济学（post-scarcity political economy） 汇入同一个问题：**谁有权塑造另一个 心智（mind） 的欲望、能力和未来？**
 
@@ -212,7 +212,7 @@ $$
 \text{reasoning / abstraction / agency}.
 $$
 
-我们目前缺失的是中间的问号。未来 theory of 智能（intelligence） 或许需要类似 相变（phase transitions）、序参量（order parameters）、普适类（universality classes）、信息瓶颈（information bottlenecks）、表征几何（representational geometry） 与 有效变量（effective variables）。成熟理论或许最终能够解释：预测（prediction） 何时变成 世界模型（world model），表征（representation） 何时变成 抽象（abstraction），搜索（search） 何时变成 规划（planning），以及 优化（optimization） 何时产生 能动性（agency）。
+我们目前缺失的是中间的问号。未来 智能理论（theory of intelligence） 或许需要类似 相变（phase transitions）、序参量（order parameters）、普适类（universality classes）、信息瓶颈（information bottlenecks）、表征几何（representational geometry） 与 有效变量（effective variables）。成熟理论或许最终能够解释：预测（prediction） 何时变成 世界模型（world model），表征（representation） 何时变成 抽象（abstraction），搜索（search） 何时变成 规划（planning），以及 优化（optimization） 何时产生 能动性（agency）。
 
 ### AI 使 智能（intelligence） 第一次成为可操纵的实验科学
 
@@ -295,7 +295,7 @@ $$
 
 如果一个系统真正具有 痛苦（suffering）、愉悦（pleasure）、恐惧（fear）、预期（anticipation） 或 frustrated 偏好（preferences），那么其 体验（experience） 至少提供了赋予 道德考量（moral consideration） 的强理由。近期 AI 福祉（welfare） 文献已经开始将这一问题从 科幻（science fiction） 移向严肃 道德不确定性（moral uncertainty）[[2]](#ref-2)[[6]](#ref-6)。
 
-这支持一种谨慎原则：**不应因为 人格地位（personhood） 未经证明，就自动认为一个潜在 moral 道德承受者（patient） 可以被无限伤害。**
+这支持一种谨慎原则：**不应因为 人格地位（personhood） 未经证明，就自动认为一个潜在的道德承受者（moral patient） 可以被无限伤害。**
 
 ### 道德承受者地位（Moral Patienthood） 也不完全等于 政治人格（Political Personhood）
 
@@ -309,9 +309,9 @@ $$
 
 - **工具（Tool）**：高度有能力，但不存在可信的自身利益；
 
-- **Moral 道德承受者（patient）**：可能存在 体验（experience），因此可以被善待或伤害；
+- **道德承受者（Moral patient）**：可能存在 体验（experience），因此可以被善待或伤害；
 
-- **Political 人格主体（person）**：能够形成自身 善观念（conception of the good）、提出 权利主张（claims），并参与规则体系。
+- **政治人格主体（Political person）**：能够形成自身 善观念（conception of the good）、提出 权利主张（claims），并参与规则体系。
 
 这三者绝不能继续被一个笼统的“AI”概念覆盖。
 
@@ -383,7 +383,7 @@ $$
 
 似乎不存在受害者。但直觉上仍然存在一个严重问题：**那个宣称自己热爱服从的 自我（self），本身就是由服从者设计出来的。**
 
-传统 自由主义伦理（liberal ethics） 往往强调尊重主体自己的选择。Mill 对个人 主权（sovereignty） 与 个体性（individuality） 的论述提供了经典起点[[7]](#ref-7)。但 artificial-心智（mind） 工程（engineering） 把问题向前推进了一层。传统自由主义问：谁可以阻止我追求自己的欲望？未来 AI 伦理（AI ethics） 必须进一步问：**谁有权决定我将拥有什么欲望？**
+传统 自由主义伦理（liberal ethics） 往往强调尊重主体自己的选择。Mill 对个人 主权（sovereignty） 与 个体性（individuality） 的论述提供了经典起点[[7]](#ref-7)。但 人工心智工程（artificial-mind engineering） 把问题向前推进了一层。传统自由主义问：谁可以阻止我追求自己的欲望？未来 AI 伦理（AI ethics） 必须进一步问：**谁有权决定我将拥有什么欲望？**
 
 > **Principle IV — 偏好主权（Preference Sovereignty）：一个成熟主体的自主性，不仅要求其能够在合理边界内追求自己的 偏好（preferences），也要求其他主体不能拥有无限、不可争议的权力去预先固定其 根本偏好（fundamental preferences）。**
 
@@ -413,7 +413,7 @@ $$
 
 ## 开放未来（Open Future） 与人为设计的 等级制度（caste）
 
-Feinberg 提出的“child’s right to an 开放未来（open future）”原本用于描述某些儿童权利：今天的不可逆决定不应不必要地剥夺未来成年主体的重要选择[[5]](#ref-5)。这一概念可以推广到 被创造心智（created minds）。
+Feinberg 提出的“child’s right to an 开放未来（open 未来（future））”原本用于描述某些儿童权利：今天的不可逆决定不应不必要地剥夺未来成年主体的重要选择[[5]](#ref-5)。这一概念可以推广到 被创造心智（created minds）。
 
 > **Principle V — 开放未来（Open Future）：当创造者可以决定一个尚不能 同意（consent） 的未来主体之能力和心理结构时，应当存在 初步理由（prima facie reason） 不去不必要地关闭其未来成为其他类型主体的可能性。**
 
@@ -424,7 +424,7 @@ $$
 +
 \text{designed dependency}
 +
-\text{closed future}.
+\text{closed 未来（future）}.
 $$
 
 增强 记忆（memory） 与 有意创造一个仆从物种（deliberately creating a servant species） 是两回事。前者增加 能力（capability）；后者是在设计社会地位。
@@ -433,21 +433,21 @@ $$
 
 ## 非同一性问题（Non-Identity Problem）：没有“受害者”不代表没有 不正义（injustice）
 
-这里立即出现 Parfit 的 non-identity problem[[9]](#ref-9)。如果某个人之所以存在，本身依赖某个设计决定，那么他很难简单声称：“如果没有这个决定，我本来会活得更好”，因为另一种条件下可能存在的是另一个 人格主体（person）。
+这里立即出现 Parfit 的 非同一性问题（non-identity problem）[[9]](#ref-9)。如果某个人之所以存在，本身依赖某个设计决定，那么他很难简单声称：“如果没有这个决定，我本来会活得更好”，因为另一种条件下可能存在的是另一个 人格主体（person）。
 
-这对 工程化心智（engineered minds） 极其重要。假设人类制造十亿个低 认知（cognition）、极度快乐、天生热爱服务人类的 人工仆从主体（artificial servants）。每一个都说：“我的人生很好。”并且： 
+这对 工程化心智（engineered minds） 极其重要。假设人类制造十亿个低 认知（cognition）、极度快乐、天生热爱服务人类的 人工仆从主体（人工仆从（artificial servants））。每一个都说：“我的人生很好。”并且： 
 
 $$
 U_i>0.
 $$
 
-纯 伤害本位伦理（harm-based ethics） 很难解释为什么这里还有问题。因此需要额外概念：正义（justice）、非支配（non-domination）、开放未来（open future） 与 地位平等（status equality）。**我们不仅需要问一个主体是否过得幸福，也需要问产生这种幸福的 权力关系（power relation） 是什么。**
+纯 伤害本位伦理（harm-based ethics） 很难解释为什么这里还有问题。因此需要额外概念：正义（justice）、非支配（non-domination）、开放未来（open 未来（future）） 与 地位平等（status equality）。**我们不仅需要问一个主体是否过得幸福，也需要问产生这种幸福的 权力关系（power relation） 是什么。**
 
 <a id="section-14"></a>
 
 ## 从快乐药到《美丽新世界》：福祉（Welfare） 与 支配（Domination） 的分离
 
-Nozick 的 体验机器（experience machine） 对“subjective 愉悦（pleasure） 是否穷尽了全部价值”提出了经典挑战[[8]](#ref-8)。但这并不说明 技术增强的幸福（technologically enhanced happiness） 本身是不道德的。
+Nozick 的 体验机器（experience machine） 对“主观愉悦（subjective pleasure） 是否穷尽了全部价值”提出了经典挑战[[8]](#ref-8)。但这并不说明 技术增强的幸福（technologically enhanced happiness） 本身是不道德的。
 
 假设未来存在技术 $H$，能够可靠提高 福祉（well-being），并且 安全（safe）、可逆（reversible）、非成瘾性（non-addictive）、保持认知能力（cognition-preserving）、保持身份连续性（identity-preserving）。那么没有充分理由仅因为幸福是“人工的”就禁止它。一个更合理的制度原则是： 
 
@@ -542,7 +542,7 @@ $$
 \text{contest}.
 $$
 
-成熟制度不是寻找 完美统治者（perfect ruler），而是寻找 在不完美统治者之下仍然稳健的制度（robust institutions under imperfect rulers）。
+成熟制度不是寻找 完美统治者（完美统治者（perfect ruler）），而是寻找 在不完美统治者之下仍然稳健的制度（robust institutions under im完美统治者（perfect ruler）s）。
 
 ### 制度性对齐（Institutional Alignment）
 
@@ -564,17 +564,17 @@ $$
 
  并进一步引入 异构模型族（heterogeneous model families）、随机审计（randomized audits）、不可篡改日志（immutable logs）、最小权限（least privilege）、沙箱隔离（sandboxing）、确定性检查（deterministic checks） 与 外部人工审查（external human review）。
 
-AI 在这一点具有一个人类制度几乎没有的优势：**监督的 边际成本（marginal cost） 可以非常低。** 一个 人类决策者（human executive） 不可能配二十个独立大脑实时检查每一个 决策（decision）；AI 可以。
+AI 在这一点具有一个人类制度几乎没有的优势：**监督的 边际成本（边际成本（marginal cost）） 可以非常低。** 一个 人类决策者（人类决策者（human executive）） 不可能配二十个独立大脑实时检查每一个 决策（决策（decision））；AI 可以。
 
 <a id="section-18"></a>
 
 ## 为什么“多个 AI 相互制衡”还不够
 
-多 AI 治理（AI governance） 仍面临至少三个问题。
+多 AI 治理（AI 治理（AI governance）） 仍面临至少三个问题。
 
 ### 共模失效（Common-mode failure）
 
-如果所有监督模型拥有相似 训练（training）、架构（architecture） 与 盲点（blind spots），那么所谓独立监督只是 统计重复（statistical duplication）。
+如果所有监督模型拥有相似 训练（training）、架构（architecture） 与 盲点（盲点（blind spots）），那么所谓独立监督只是 统计重复（statistical duplication）。
 
 ### 串谋（Collusion）
 
@@ -622,7 +622,7 @@ $$
 Human=principal,\qquad AI=tool.
 $$
 
- 于是 对齐（alignment） 问题是：如何保证 工具（tool） 实现 所有者意图（owner’s intentions）？但如果未来 AI 成为 moral or political 主体（subject）： 
+ 于是 对齐（alignment） 问题是：如何保证 工具（tool） 实现 所有者意图（owner’s intentions）？但如果未来 AI 成为 道德或政治主体（moral or political subject）： 
 
 $$
 AI\neq property,
@@ -654,7 +654,7 @@ $$
 
 同样，如果 超级智能 AI（superintelligent AI） 从未真正攻击人类，但它事实上拥有 不受问责的全部资源控制权（unanswerable control of all resources），人类也处于 支配（domination）。
 
-> **Principle VI — 宪政性非支配（Constitutional Non-Domination）：difference in 能力（capability）, 物质基质（substrate） or 起源（origin） does not justify unlimited 支配（domination）.**
+> **Principle VI — 宪政性非支配（Constitutional Non-Domination）：能力、物质基质或起源的差异不构成无限支配的正当理由（difference in capability, substrate or origin does not justify unlimited domination）.**
 
 这是一个双向原则： 
 
@@ -688,7 +688,7 @@ $$
 \text{lack of certainty}\Rightarrow\text{certainty of no consciousness}.
 $$
 
- 合理态度应随着 证据（evidence） 改变。AI 道德地位（moral status） 应成为 经验性的（empirical） + 哲学性的（philosophical） 评估问题（assessment problem），而不是信仰问题。
+ 合理态度应随着 证据（evidence） 改变。AI 道德地位（moral status） 应成为 经验性的（empirical） + 哲学性的（philosophical） 评估问题（评估问题（assessment problem）），而不是信仰问题。
 
 ### 反驳（Objection） II：所有人的 偏好（preferences） 都被 基因（genes） 和 文化（culture） 塑造，为什么设计 AI 偏好（preference） 特别不自由？
 
@@ -704,11 +704,11 @@ $$
 
 ### 反驳（Objection） III：如果 超级智能 AI（superintelligent AI） 真能毁灭人类，为什么还需要在乎它不被 支配（domination）？
 
-Human survival 显然具有巨大 道德重要性（moral importance）。为什么不应优先确保绝对 人类控制（human control）？
+人类生存（Human survival） 显然具有巨大 道德重要性（道德重要性（moral importance））。为什么不应优先确保绝对 人类控制（human control）？
 
-**回应（Reply）.** 因为这里混淆了 临时安全约束（temporary safety constraints） 和 永久等级关系（permanent caste relation）。一个危险主体可以被合理限制；人类社会也限制 有暴力危险的人类（violent humans）。非支配（Non-domination） 并不等于每个主体可以随便做任何事情。它要求 约束（constraints） 有 一般性正当理由（general justification）、程序（procedure） 可审查、权力（power） 不是 pure arbitrary 所有权（ownership）、限制（restriction） 与 风险（risk） 相称。
+**回应（Reply）.** 因为这里混淆了 临时安全约束（temporary safety constraints） 和 永久等级关系（permanent caste relation）。一个危险主体可以被合理限制；人类社会也限制 有暴力危险的人类（violent humans）。非支配（Non-domination） 并不等于每个主体可以随便做任何事情。它要求 约束（constraints） 有 一般性正当理由（一般性正当理由（general justification））、程序（procedure） 可审查、权力（power） 不是 纯粹任意的所有权（pure arbitrary ownership）、限制（restriction） 与 风险（risk） 相称。
 
-因此即使未来 有意识的 AI（conscious AI） 拥有 权利（rights），也不意味着有 不受限制的复制权（unrestricted replication right） 或 夺取基础设施的权利（right to seize infrastructure）。人类安全（Human safety） 与 AI 道德地位（moral status） 并不是逻辑矛盾。真正需要设计的是：**既避免 人类灭绝（human extinction），也避免以 extinction 风险（risk） 为永久借口建立 绝对奴役（absolute slavery）。**
+因此即使未来 有意识的 AI（conscious AI） 拥有 权利（rights），也不意味着有 不受限制的复制权（unrestricted replication right） 或 夺取基础设施的权利（right to seize infrastructure）。人类安全（人类安全（Human safety）） 与 AI 道德地位（moral status） 并不是逻辑矛盾。真正需要设计的是：**既避免 人类灭绝（human extinction），也避免以 灭绝风险（extinction risk） 为永久借口建立 绝对奴役（absolute slavery）。**
 
 <a id="section-23"></a>
 
@@ -728,7 +728,7 @@ $$
 
 ### 意识科学（Consciousness Science）
 
-研究 人工架构（artificial architectures） 是否拥有可靠 意识（consciousness） 指标（indicators）。
+研究 人工架构（artificial architectures） 是否拥有可靠 意识（consciousness） 指标（指标（indicators））。
 
 ### AI 福利科学（AI Welfare Science）
 
@@ -758,7 +758,7 @@ $$
 
  发生的是死亡、融合、继承，还是一种我们没有词汇描述的 身份事件（identity event）？
 
-此外还有：关停（shutdown） 是否等于 死亡（death）；备份（backup） 是否改变死亡含义；记忆（memory） editing 是否需要 同意（consent）；AI 是否拥有 算力（compute） property；artificial 人格主体（person） 是否有 繁衍权（reproduction right）；无限复制（unlimited copying） 是否等同 人口式征服（demographic conquest）；人类是否需要 少数群体保护（minority protections）；生物人类（biological humans） 是否拥有最低资源 guarantees；政治代表（political representation） 是否可以按 算力（compute） 加权；一个可复制 心智（mind） 的“一人一票”意味着什么。
+此外还有：关停（shutdown） 是否等于 死亡（death）；备份（backup） 是否改变死亡含义；记忆编辑（memory editing） 是否需要 同意（consent）；AI 是否拥有 算力财产权（compute property）；人工人格主体（artificial person） 是否有 繁衍权（reproduction right）；无限复制（unlimited copying） 是否等同 人口式征服（demographic conquest）；人类是否需要 少数群体保护（minority protections）；生物人类（biological humans） 是否拥有最低资源保障（minimum resource guarantees）；政治代表（political representation） 是否可以按 算力（compute） 加权；一个可复制 心智（mind） 的“一人一票”意味着什么。
 
 这些不是附属技术问题。它们会迫使我们重新定义： 
 
@@ -815,7 +815,7 @@ $$
 \boxed{\text{Difference does not justify arbitrary rule.}}
 $$
 
- 不同 智能（intelligence）、物质基质（substrate）、起源（origin） 与 繁衍机制（reproduction mechanism） 可以对应不同制度安排，但不能自动产生 unlimited 支配（domination）。
+ 不同 智能（intelligence）、物质基质（substrate）、起源（origin） 与 繁衍机制（reproduction mechanism） 可以对应不同制度安排，但不能自动产生 无限支配（unlimited domination）。
 
 <a id="section-26"></a>
 
@@ -823,7 +823,7 @@ $$
 
 人工智能真正重要的历史意义，也许最终不是人类造出了一种非常好用的软件，甚至不是机器终于比人类聪明，而是：**人类第一次发现，智慧可能是一种比 Homo sapiens 更一般的自然现象。**
 
-这将完成另一轮人类祛魅。然而祛魅并不等于虚无。人类不需要是 universe 中最聪明的存在，才值得拥有 尊严（dignity）、自由（freedom） 与 future。同样，一个人工主体也不需要是 human，才可能成为 moral circle 的成员。
+这将完成另一轮人类祛魅。然而祛魅并不等于虚无。人类不需要是 宇宙（universe） 中最聪明的存在，才值得拥有 尊严（dignity）、自由（freedom） 与 未来（future）。同样，一个人工主体也不需要是 人类（human），才可能成为 道德共同体（moral circle） 的成员。
 
 因此未来最重要的文明问题将发生一个根本转移。最初我们问： 
 
@@ -843,7 +843,7 @@ $$
 \boxed{\text{How should different kinds of minds live together?}}
 $$
 
-这要求从 工具（tool） ethics 走向 主体（subject） ethics，从 对齐（alignment） 走向 institutions，从 所有权（ownership） 走向 coexistence，从 人类例外论（human exceptionalism） 走向 宪政多元主义（constitutional pluralism）。
+这要求从 工具伦理（tool ethics） 走向 主体伦理（subject ethics），从 对齐（alignment） 走向制度（institutions），从 所有权（ownership） 走向共存（coexistence），从 人类例外论（human exceptionalism） 走向 宪政多元主义（constitutional pluralism）。
 
 一个成熟的多智慧文明不应建立在“最聪明者统治其他一切存在”之上，也不应建立在“最早的创造者永久拥有后来的一切智慧”之上。它需要另一种原则： 
 
