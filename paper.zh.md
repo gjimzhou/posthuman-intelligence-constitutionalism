@@ -542,7 +542,7 @@ $$
 \text{contest}.
 $$
 
-成熟制度不是寻找 完美统治者（完美统治者（perfect ruler）），而是寻找 在不完美统治者之下仍然稳健的制度（robust institutions under im完美统治者（perfect ruler）s）。
+成熟制度不是寻找完美统治者（perfect ruler），而是寻找在不完美统治者之下仍然稳健的制度（robust institutions under imperfect rulers）。
 
 ### 制度性对齐（Institutional Alignment）
 
