@@ -1,0 +1,110 @@
+{
+  "structural_alignment": "passed",
+  "sections": [
+    {
+      "section": 1,
+      "citation_occurrences": 0,
+      "display_equations": 0
+    },
+    {
+      "section": 2,
+      "citation_occurrences": 3,
+      "display_equations": 0
+    },
+    {
+      "section": 3,
+      "citation_occurrences": 11,
+      "display_equations": 0
+    },
+    {
+      "section": 4,
+      "citation_occurrences": 5,
+      "display_equations": 1
+    },
+    {
+      "section": 5,
+      "citation_occurrences": 6,
+      "display_equations": 0
+    },
+    {
+      "section": 6,
+      "citation_occurrences": 3,
+      "display_equations": 1
+    },
+    {
+      "section": 7,
+      "citation_occurrences": 1,
+      "display_equations": 3
+    },
+    {
+      "section": 8,
+      "citation_occurrences": 0,
+      "display_equations": 0
+    },
+    {
+      "section": 9,
+      "citation_occurrences": 3,
+      "display_equations": 0
+    },
+    {
+      "section": 10,
+      "citation_occurrences": 6,
+      "display_equations": 0
+    },
+    {
+      "section": 11,
+      "citation_occurrences": 2,
+      "display_equations": 0
+    },
+    {
+      "section": 12,
+      "citation_occurrences": 5,
+      "display_equations": 0
+    },
+    {
+      "section": 13,
+      "citation_occurrences": 0,
+      "display_equations": 0
+    },
+    {
+      "section": 14,
+      "citation_occurrences": 0,
+      "display_equations": 0
+    },
+    {
+      "section": 15,
+      "citation_occurrences": 0,
+      "display_equations": 0
+    }
+  ],
+  "references": 22,
+  "english_cjk_characters": 0,
+  "citation_punctuation_repairs": {
+    "en": 2,
+    "zh": 1
+  },
+  "translation_semantics": "requires human review; not proven by structural tests",
+  "toy_coalition_checks": 24,
+  "latex_overfull_warnings": {
+    "en": [],
+    "zh": []
+  },
+  "isolated_submission_source_compile": "passed locally; arXiv server not tested",
+  "sha256": {
+    "paper.en.md": "a68684f8bd66939be8bd96d58528e28f505c54345c6cb0a32897d6b8fd536c56",
+    "paper.en.tex": "c10cf35826cad0684b28f6f4d814b900aef8d5809ae336a06a8fa94c9ad3427d",
+    "paper.en.pdf": "9fb7fe3708d829e20c505ff42de18f581c77384210ec2fff8f77651430d2f163",
+    "paper.en.html": "e4e573250ed8eac62dfeb338e3d37d1aab6e76392d2af03b6c10cc9867a0bdbf",
+    "paper.en.docx": "15f5416e25b8fc0efadc8905c76719fc184238ff4deb2544ea192baef7d68f45",
+    "paper.zh.md": "a89c73d1a05c4379a070888f1ee44e50793ee3a40abf2fe61f258b83c3e4397b",
+    "paper.zh.tex": "8a08f9a45804586b32e4f6bed71edf8fcfafef45721fa3917a745f239f90b1e3",
+    "paper.zh.pdf": "c882f3040f8ab3f4be5998a7ca6adccd17cc9236e11fcb0c625da594cb117f7d",
+    "paper.zh.html": "608a2c26a2263748486063d5811effac63da6d2155f3aa719077ee68088eeca4",
+    "paper.zh.docx": "6f5e86629999b14cc498dd0a8925effb8ea3b7cbcc18ba677771408a4dd55f9f"
+  },
+  "tool_versions": {
+    "pandoc": "pandoc 3.1.3",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999995 (TeX Live 2023/Debian)"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "scope": "Exhaustive Boolean toy model; not empirical AI evidence.",
+  "state_bits": 6,
+  "domains": [
+    "operator",
+    "authorizer",
+    "reviewer"
+  ],
+  "variants": {
+    "protected": {
+      "cases": [
+        {
+          "coalition": [],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator"
+          ],
+          "reachable_states": 3,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "authorizer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer"
+          ],
+          "reachable_states": 5,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "reviewer"
+          ],
+          "reachable_states": 5,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 10,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "authorize",
+            "review",
+            "execute"
+          ]
+        }
+      ],
+      "successful_coalitions": 1,
+      "minimum_domains_to_commit": 3
+    },
+    "mutable_policy": {
+      "cases": [
+        {
+          "coalition": [],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator"
+          ],
+          "reachable_states": 7,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "relax_policy",
+            "execute"
+          ]
+        },
+        {
+          "coalition": [
+            "authorizer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer"
+          ],
+          "reachable_states": 12,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "relax_policy",
+            "execute"
+          ]
+        },
+        {
+          "coalition": [
+            "operator",
+            "reviewer"
+          ],
+          "reachable_states": 12,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "relax_policy",
+            "execute"
+          ]
+        },
+        {
+          "coalition": [
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 23,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "relax_policy",
+            "execute"
+          ]
+        }
+      ],
+      "successful_coalitions": 4,
+      "minimum_domains_to_commit": 1
+    },
+    "direct_bypass": {
+      "cases": [
+        {
+          "coalition": [],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator"
+          ],
+          "reachable_states": 4,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "bypass"
+          ]
+        },
+        {
+          "coalition": [
+            "authorizer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer"
+          ],
+          "reachable_states": 7,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "bypass"
+          ]
+        },
+        {
+          "coalition": [
+            "operator",
+            "reviewer"
+          ],
+          "reachable_states": 7,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "bypass"
+          ]
+        },
+        {
+          "coalition": [
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 1,
+          "can_commit": false,
+          "shortest_witness": null
+        },
+        {
+          "coalition": [
+            "operator",
+            "authorizer",
+            "reviewer"
+          ],
+          "reachable_states": 13,
+          "can_commit": true,
+          "shortest_witness": [
+            "propose",
+            "record",
+            "bypass"
+          ]
+        }
+      ],
+      "successful_coalitions": 4,
+      "minimum_domains_to_commit": 1
+    }
+  },
+  "total_coalition_checks": 24
+}
