@@ -35,7 +35,7 @@ jobs:
       - name: Install publication toolchain
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc python3-docx texlive-xetex texlive-latex-extra texlive-lang-chinese texlive-fonts-recommended lmodern fonts-noto-cjk
+          sudo apt-get install -y --no-install-recommends pandoc python3-docx texlive-xetex texlive-latex-extra texlive-lang-chinese texlive-fonts-recommended lmodern fonts-noto-cjk
       - name: Build and check all paired editions
         run: python3 scripts/build_all.py --format
       - name: Confirm clean canonical sources pass read-only checks
@@ -49,6 +49,7 @@ jobs:
           path: |
             paper.*
             scripts/
+            !scripts/__pycache__/
             templates/
             build/
             submission/

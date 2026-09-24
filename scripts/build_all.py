@@ -110,6 +110,8 @@ def body_markdown(paper, *, tex=False):
     for n in range(first, 15):
         heading, text = split_heading(paper['sections'][n])
         if tex:
+            # URL's obeyspaces mode preserves commands and permits safe path wrapping.
+            text = re.sub(r'`([^`\n]+)`', lambda m: r'\path{' + m.group(1) + '}', text)
             text = CITE.sub(lambda m: r'\cite{ref-' + m.group(1) + '}', text)
         else:
             text = CITE.sub(lambda m: '[[' + m.group(1) + ']](#ref-' + m.group(1) + ')', text)
@@ -134,6 +136,17 @@ def style_docx(path, lang):
     from docx.oxml import OxmlElement
     from docx.oxml.ns import qn
     doc = Document(path)
+    # Pandoc and python-docx versions differ in localized/display style names.
+    # Resolve using normalized names/IDs rather than built-in name translation.
+    styles = {}
+    for item in doc.styles:
+        for key in (item.name, item.style_id):
+            styles[re.sub(r"\s+", "", key).casefold()] = item
+    def get_style(name):
+        key = re.sub(r"\s+", "", name).casefold()
+        if key not in styles:
+            raise ValueError(f"Required paragraph style absent: {name}")
+        return styles[key]
     for section in doc.sections:
         section.page_width, section.page_height = Inches(8.2677), Inches(11.6929)
         section.top_margin = section.bottom_margin = Inches(0.90)
@@ -144,9 +157,9 @@ def style_docx(path, lang):
         field.set(qn('w:instr'), 'PAGE')
         footer._p.append(field)
     for style_name in ('Normal', 'Body Text', 'First Paragraph', 'Title', 'Subtitle', 'Author', 'Date', 'Heading 1', 'Heading 2'):
-        if style_name not in doc.styles:
+        if re.sub(r'\s+', '', style_name).casefold() not in styles:
             continue
-        style = doc.styles[style_name]
+        style = get_style(style_name)
         style.font.name = 'Times New Roman'
         style.font.size = Pt(11)
         style.font.color.rgb = RGBColor(0, 0, 0)
@@ -158,12 +171,12 @@ def style_docx(path, lang):
         fonts.set(qn('w:eastAsia'), 'Noto Serif CJK SC')
         style.paragraph_format.line_spacing = 1.15
         style.paragraph_format.space_after = Pt(6)
-    doc.styles['Title'].font.size = Pt(21)
-    doc.styles['Subtitle'].font.size = Pt(13)
-    doc.styles['Heading 1'].font.size = Pt(14)
-    doc.styles['Heading 1'].font.bold = True
-    doc.styles['Heading 1'].paragraph_format.space_before = Pt(14)
-    doc.styles['Heading 1'].paragraph_format.keep_with_next = True
+    get_style('Title').font.size = Pt(21)
+    get_style('Subtitle').font.size = Pt(13)
+    get_style('Heading 1').font.size = Pt(14)
+    get_style('Heading 1').font.bold = True
+    get_style('Heading 1').paragraph_format.space_before = Pt(14)
+    get_style('Heading 1').paragraph_format.keep_with_next = True
     in_refs = False
     for paragraph in doc.paragraphs:
         if paragraph.text in ('References', '参考文献'):
@@ -195,6 +208,8 @@ def compile_tex(tex_path, destination, engine, workdir):
         raise ValueError(f'Unresolved reference or missing glyph in {tex_path.name}')
     shutil.copy2(workdir / (tex_path.stem + '.pdf'), destination)
     warnings = re.findall(r'Overfull \\[hv]box[^\n]*', log)
+    if warnings:
+        raise ValueError(f'Layout overflow in {tex_path.name}: {warnings}')
     return warnings
 
 
