@@ -1,90 +1,72 @@
-name: Build bilingual paper
+name: Validate and build bilingual paper
 
 on:
   push:
     branches: [main]
     paths:
-      - "paper.zh.md"
-      - "paper.en.md"
-      - "scripts/build_tex.py"
-      - "scripts/build_formats.py"
-      - "Makefile"
-      - ".github/workflows/build-bilingual.yml"
+      - 'paper.*.md'
+      - 'scripts/**'
+      - 'templates/**'
+      - 'Makefile'
+      - '.github/workflows/build-bilingual.yml'
+  pull_request:
+    paths:
+      - 'paper.*.md'
+      - 'scripts/**'
+      - 'templates/**'
+      - 'Makefile'
+      - '.github/workflows/build-bilingual.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: bilingual-paper-main
+  group: bilingual-paper-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Install document toolchain
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install publication toolchain
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            pandoc \
-            texlive-xetex \
-            texlive-latex-extra \
-            texlive-fonts-recommended \
-            texlive-lang-chinese \
-            fonts-noto-core \
-            fonts-noto-cjk \
-            fonts-dejavu-core
-
-      - name: Validate bilingual canonical sources and regenerate LaTeX
-        run: python3 scripts/build_tex.py
-
-      - name: Build paired HTML and DOCX editions
-        run: python3 scripts/build_formats.py
-
-      - name: Compile English PDF
-        run: |
-          xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
-          xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
-
-      - name: Compile Chinese PDF
-        run: |
-          xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
-          xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
-
-      - name: Upload complete bilingual document set
+          sudo apt-get install -y pandoc python3-docx texlive-xetex texlive-latex-extra texlive-lang-chinese texlive-fonts-recommended lmodern fonts-noto-cjk
+      - name: Build and check all paired editions
+        run: python3 scripts/build_all.py --format
+      - name: Confirm clean canonical sources pass read-only checks
+        run: python3 scripts/build_all.py --check
+      - name: Upload source, publications, checks, and submission package
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: posthuman-intelligence-constitutionalism-bilingual
+          name: constitutional-pluralism-bilingual
+          if-no-files-found: error
           path: |
-            paper.en.md
-            paper.zh.md
-            paper.en.tex
-            paper.zh.tex
-            paper.en.pdf
-            paper.zh.pdf
-            paper.en.html
-            paper.zh.html
-            paper.en.docx
-            paper.zh.docx
-
-      - name: Commit synchronized generated editions
+            paper.*
+            scripts/
+            templates/
+            build/
+            submission/
+            docs/
+            README.md
+            Makefile
+      - name: Publish synchronized outputs only for the source commit built
+        if: success() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            paper.en.tex paper.zh.tex \
-            paper.en.pdf paper.zh.pdf \
-            paper.en.html paper.zh.html \
-            paper.en.docx paper.zh.docx
-          if git diff --cached --quiet; then
-            echo "Generated files are already current."
-          else
-            git commit -m "Build synchronized bilingual document editions [skip ci]"
-            git pull --rebase origin main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$GITHUB_SHA" ]; then
+            echo 'A newer source commit exists. Not publishing stale generated outputs.'
+            exit 0
+          fi
+          git add paper.en.md paper.zh.md paper.en.tex paper.zh.tex paper.en.pdf paper.zh.pdf paper.en.html paper.zh.html paper.en.docx paper.zh.docx build/ submission/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build verified bilingual submission candidate [skip ci]'
             git push origin HEAD:main
           fi

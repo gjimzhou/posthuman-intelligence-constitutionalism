@@ -1,26 +1,21 @@
-.PHONY: all validate tex html docx formats pdf clean
+.PHONY: all check format tex formats pdf clean
 
-all: pdf formats
+all:
+	python3 scripts/build_all.py
 
-validate:
-	python3 scripts/build_tex.py
+check:
+	python3 scripts/build_all.py --check
+
+format:
+	python3 scripts/build_all.py --format --check
 
 tex:
-	python3 scripts/build_tex.py
+	python3 scripts/build_all.py --tex-only
 
 formats:
-	python3 scripts/build_formats.py
+	python3 scripts/build_all.py --formats-only
 
-html: formats
-
-docx: formats
-
-pdf: tex
-	xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
-	xelatex -interaction=nonstopmode -halt-on-error paper.en.tex
-	xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
-	xelatex -interaction=nonstopmode -halt-on-error paper.zh.tex
+pdf: all
 
 clean:
-	rm -f *.aux *.log *.out *.toc *.synctex.gz *.fls *.fdb_latexmk
-	rm -f paper.en.html paper.zh.html paper.en.docx paper.zh.docx
+	rm -rf .build

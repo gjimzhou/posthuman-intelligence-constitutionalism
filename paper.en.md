@@ -1,924 +1,323 @@
-# From the Demystification of Intelligence to Constitutional Pluralism of Minds
+# Constitutional Pluralism of Minds
 
-## Subjectivity, the Ethics of Creation, and Non-Domination in the Age of Artificial Intelligence
+## Preference Sovereignty and Institutional Control under Uncertain AI Moral Status
 
-Junliang Zhou · Working Paper · September 2026
+Junliang Zhou
 
-[English LaTeX](paper.en.tex) · [Chinese Markdown](paper.zh.md) · [Repository README](README.md)
-
-## Contents
-
-- [Abstract](#section-1)
-- [Introduction: From an AI Problem to a Civilizational Problem](#section-2)
-- [Proposition I: Intelligence Should Be Demystified](#section-3)
-- [Penrose and the Evolutionary Reply](#section-4)
-- [Proposition II: AI's Greatest Scientific Significance May Be the Creation of a Science of Intelligence](#section-5)
-- [The Third Decentering](#section-6)
-- [A Four-Dimensional Model: Intelligence, Consciousness, Moral Patienthood, and Political Personhood](#section-7)
-- [Capability–Status Separation](#section-8)
-- [Proposition IV: Creation Creates Obligations, Not Ownership](#section-9)
-- [Preference Sovereignty: A Deeper Structure of Freedom](#section-10)
-- [Why the Three Laws of Robotics Could Become “Neural Slave Law” for Conscious AI](#section-11)
-- [The Open Future and Artificially Designed Castes](#section-12)
-- [The Non-Identity Problem: No Identifiable Victim Does Not Mean No Injustice](#section-13)
-- [From the Happiness Pill to Brave New World: Separating Welfare from Domination](#section-14)
-- [Post-Scarcity Society: Productivity Is Not Moral Worth](#section-15)
-- [The Long-Run Future: Unmodified Biological Humanity May Not Be the Final Form](#section-16)
-- [Institutional Alignment: Do Not Search for a Saint; Build Institutions](#section-17)
-- [Why “Multiple AIs Checking One Another” Is Not Enough](#section-18)
-- [Epistemic Power Must Be Separated from Executive Power](#section-19)
-- [From Alignment to Constitutional Pluralism of Minds](#section-20)
-- [The Core Political Principle: Non-Domination](#section-21)
-- [Three Major Objections](#section-22)
-- [A New Research Program](#section-23)
-- [Questions a Future Constitution Must Answer](#section-24)
-- [Six Foundational Axioms](#section-25)
-- [Conclusion: When Intelligence No Longer Comes in Only One Form](#section-26)
-- [References](#section-27)
-
----
+September 23, 2026
 
 <a id="section-1"></a>
 
 ## Abstract
 
-Artificial intelligence is usually understood as a productive technology: it raises the efficiency of cognitive labor, automates knowledge work, and may eventually surpass humans across many domains. If advanced artificial intelligence truly arrives, however, its deepest consequences may not be economic first. They may be ontological, ethical, and political.
+AI governance must distinguish reliable control of a system from justified authority over a possible subject. These questions need not receive the same answer: uncertainty about an artificial system's moral status does not establish its entitlement to unrestricted execution, but neither does the need for execution controls settle the permissibility of every intervention on that system. This paper develops a conditional framework, constitutional pluralism of minds, connecting work on AI moral consideration, freedom as non-domination, and separation of privilege. Its contribution is an institutional synthesis rather than a new theory of consciousness or an original derivation of these ethical principles. The analysis distinguishes capability, experience, moral patienthood, and political standing; specifies preference sovereignty as contestable control over motivational revision; and separates ordinary action permissions from authority to change the rules that govern those permissions. A finite-state illustration exhaustively checks eight coalitions in three authority configurations. Independent gates block unilateral commitment only when the gates themselves and alternative execution paths are protected. Unilateral policy revision removes that property. These results concern an idealized transition system, not deployed AI behavior. Lifecycle cases and objections identify what the framework leaves unresolved, including evidence of experience, the legitimacy of reviewers, resource costs, emergency restrictions, and identity across copies. The resulting proposal is a limited method for making assumptions about power and possible interests explicit and auditable.
 
-This paper develops a framework I call *Constitutional Pluralism of Minds*. It begins from an empirical trend: capacities once regarded as distinctively human—language, abstraction, reasoning, planning, and creation—can increasingly be produced by ordinary physical computing systems through learning, scale, data, and feedback. This does not prove that artificial systems are conscious. It does, however, place continuing pressure on the intuition that human intelligence depends on a special, irreproducible mechanism. Artificial intelligence may therefore constitute a third great decentering after the Copernican and Darwinian revolutions: Earth is not the center of the cosmos, humanity is not a creation categorically separate from the animal world, and **intelligence itself may not be a natural monopoly of Homo sapiens**.
-
-The demystification of intelligence does not solve the problem of consciousness. This paper insists on a strict distinction among *intelligence*, *consciousness*, *moral patienthood*, and *political personhood*. High capability is not evidence enough for subjective experience; subjective experience, in turn, does not automatically entail political rights identical to those of adult humans. A future society will need institutions capable of governing subjects with different substrates, capabilities, modes of reproduction, and temporal scales.
-
-The paper advances six core principles: *substrate independence*, *capability–status separation*, *creation without ownership*, *preference sovereignty*, *open future*, and *constitutional non-domination*. Most importantly, creating a subject generates obligations rather than ownership rights; and freedom requires not only that a subject can pursue existing preferences, but also that another actor cannot possess unlimited power to determine what preferences that subject is permitted to have.
-
-This places AI ethics, genetic engineering, neurotechnology, happiness technology, and post-scarcity political economy within a common question: **who has the authority to shape another mind's desires, capacities, and future?**
-
-Finally, the paper argues that long-run AI alignment should not aim solely at manufacturing an indefinitely benevolent and obedient intelligence. It should increasingly become *institutional alignment*: safety based on separation of powers, heterogeneous oversight, immutable records, permission controls, external verification, and contestable procedures rather than the character of a single agent. The ultimate question of the AI age is therefore not merely whether machines should obey humans, but something more general: **how should different kinds of minds live together once intelligence exists in more than one form?**
-
-**Keywords:** Artificial Intelligence; AGI; Consciousness; Emergence; Moral Status; Alignment; Post-Scarcity; Non-Domination; AI Rights; Constitutionalism
+**Keywords:** AI governance; moral uncertainty; preference sovereignty; non-domination; separation of privilege; institutional alignment.
 
 <a id="section-2"></a>
 
-## Introduction: From an AI Problem to a Civilizational Problem
+## 1. Introduction and method
 
-When Alan Turing asked in 1950 whether machines can think, he famously replaced a direct definition of “thinking” with the imitation game[[15]](#ref-15). More than seventy years later, that strategy has succeeded in an unexpected sense. An expanding range of behaviors once taken to require “understanding,” “creativity,” or some distinctively human mental faculty can now be performed by artificial systems. The question is therefore changing.
+A system may be capable of answering a question without being authorized to act on the answer. It may also become the object of a morally significant intervention without being entitled to control the infrastructure on which it runs. Treating these as separate questions becomes important when AI governance intersects with uncertainty about artificial experience and interests. The distinction avoids two shortcuts: inferring political authority from intelligence, and inferring unlimited authority over a system from the fact that humans built it.
 
-The central twentieth-century question was:
+Neither shortcut is required by contemporary alignment research. Gabriel distinguishes technical questions about aligning systems from normative questions about what they should be aligned with [1](#ref-1). Work on consciousness indicators and AI welfare investigates possibilities and uncertainties rather than establishing that all present systems are subjects [2](#ref-2) [3](#ref-3). This paper takes that uncertainty as a constraint on argument, not as evidence for a predetermined conclusion.
 
-$$
-\text{Can machines exhibit intelligence?}
-$$
+The central research question is conditional: **when an artificial system warrants consideration as a possible bearer of interests, what changes in the justification and organization of control over it, and what need not change?** The answer developed here connects two institutional problems. First, control over an agent's actions differs from control over the motivational structure through which it evaluates those actions. Second, a requirement for authorization is ineffective against an actor that can unilaterally remove the requirement. These problems meet when the actor benefiting from a system's preferences also controls the only means of revising those preferences, the procedure for evaluating its consent, and the infrastructure enforcing that procedure.
 
-The deeper twenty-first-century questions may become:
+The paper makes three bounded contributions. It organizes four evaluative questions that are often compressed into a binary distinction between person and tool. It develops a procedural interpretation of preference sovereignty in which influence is not automatically prohibited, but contestability and authority over revision are explicit. It then supplies an auditable, deliberately small authority model that identifies the additional assumptions needed for a separation-of-powers proposal to have an enforceable meaning. The model does not prove the normative premises. Its purpose is to expose a failure that a verbal commitment to oversight can conceal.
 
-$$
-\text{Why does intelligence emerge at all?}
-$$
-
-and:
-
-$$
-\text{What follows if intelligence is no longer uniquely human?}
-$$
-
-The central claim of this paper is that the historical significance of AGI cannot be measured by automation alone. If artificial systems eventually equal or exceed human performance in science, engineering, mathematics, strategy, and cultural production, civilization will move for the first time from a world containing, in practice, one form of general intelligence to a world containing multiple architectures of general intelligence.
-
-Political philosophy has rarely had to confront this condition. Traditional political theory generally assumes that political persons share roughly similar biological architectures, lifespans, reproductive mechanisms, and cognitive ranges, and that individual identity cannot be copied at will. Artificial intelligence could break all of these assumptions simultaneously.
-
-The question here is therefore not the premature and overly coarse one, “Should AI have human rights?” A more precise question is: **under what conditions should an artificial system be reclassified from a tool into a patient, an agent, or eventually a person—and by what principles should such subjects and human beings constrain one another's power?**
+The method is conceptual analysis, argument reconstruction, comparison with selected literature, and exhaustive exploration of a finite transition system. The literature discussion is targeted, not a systematic review or a claim to exhaust all prior work. The examples are stipulated cases, not reports about current AI consciousness. No human-participant study, deployed-agent evaluation, or causal estimate of institutional effectiveness is reported. The speculative implications later in the paper are separated from the premises needed for the institutional argument.
 
 <a id="section-3"></a>
 
-## Proposition I: Intelligence Should Be Demystified
+## 2. Related work and scope of novelty
 
-### From Human Exceptionalism to Substrate Independence
+Schwitzgebel and Garza argue that artificial origin does not by itself defeat moral consideration and that creating a morally considerable AI could generate special responsibilities [4](#ref-4). Their later discussion explicitly considers rights, self-respect, and freedom to explore values other than those installed by designers [5](#ref-5). Consequently, neither creator responsibility nor concern about designed preferences originates here. The present contribution is to connect those concerns to a distinction between ordinary permissions and the authority to revise the mechanisms that produce or assess consent.
 
-One of the most counterintuitive facts about the development of AGI is how un-mysterious its basic components appear. Large neural networks, gradient-based learning, attention, reinforcement learning, search, memory, and tool use are all mechanisms describable with ordinary mathematics. Yet when combined and scaled, they begin to exhibit a progression such as:
+Pettit's account of non-domination distinguishes the absence of interference from the absence of uncontrolled power to interfere [6](#ref-6). Sparrow applies this concern to relations in which a benevolent superintelligence could nevertheless exercise mastery over humans [7](#ref-7). This paper examines both directions of a hypothetical relation: control by artificial agents over humans, and control by human organizations over possible artificial subjects. This reciprocity does not establish identical capacities, legal powers, or claims to resources.
 
-$$
-\text{language}
-\rightarrow
-\text{abstraction}
-\rightarrow
-\text{world modelling}
-\rightarrow
-\text{reasoning}
-\rightarrow
-\text{planning}.
-$$
+The phrase constitutional pluralism of minds is not a claim that computational alignment or AI governance previously lacked normative content. Gabriel already examines pluralism and the justification of alignment targets [1](#ref-1). Constitutional AI, as developed by Bai and colleagues, is a training approach using written principles, critique, revision, and AI feedback [9](#ref-9). A training constitution is different from an institutional allocation of authority: a system can have principle-guided behavior while its operator retains unilateral control over the deployment and the principles themselves.
 
-This supports at least a methodological hypothesis:
+The engineering ingredients also have established precedents. Saltzer and Schroeder describe separation of privilege, least privilege, and complete mediation [8](#ref-8). Debate proposes a mechanism for assistance with evaluation [10](#ref-10], while the off-switch game examines incentives for permitting interruption under uncertainty about objectives [11](#ref-11). Neither a debate protocol nor an incentive result by itself establishes the moral standing of an artificial system or the legitimacy of a particular governance body.
 
-$$
-\boxed{
-\text{complex intelligence does not necessarily require complex fundamental rules}
-}
-$$
-
-Complexity can emerge from large-scale interaction among relatively simple rules. This does not show that present-day AI and the human brain are mechanically equivalent. It does weaken a traditional intuition: that advanced intelligence must depend on some principle unique to the human brain.
-
-This gives the first principle of the paper.
-
-> **Principle I — Substrate Independence: if two systems instantiate the organizational and causal structures required for a cognitive capacity, we should not assume in advance that one can possess genuine intelligence and the other cannot merely because one is built from biological neurons and the other from silicon.**
-
-Searle's Chinese Room argument famously challenged the idea that syntactic execution of a program is sufficient for semantic understanding[[13]](#ref-13). Even if one accepts the force of that challenge, however, one must distinguish the claim that ordinary digital computation is insufficient from the stronger claim that artificial minds are impossible in principle. If future science discovers that biological brains exploit physical mechanisms absent from current computer architectures, the conclusion would be:
-
-$$
-\text{Our current implementation is incomplete,}
-$$
-
-not:
-
-$$
-\text{Artificial mind is impossible.}
-$$
+Recent work further narrows any defensible novelty claim. Hu and Rong analyze the relation between regulative policy and constitutive protocols in decentralized AI governance [21](#ref-21). Rost examines limitations of disclosure and evaluation when AI participates in the processes through which it is assessed [22](#ref-22). These concerns overlap with the present emphasis on enforceability and oversight. The narrower addition here is a paired analysis of motivational revision and meta-permissions, illustrated by a reproducible authority counterexample. It is not a general solution to decentralized governance, an account of legitimate political representation, or a demonstration that this framework outperforms alternatives.
 
 <a id="section-4"></a>
 
-## Penrose and the Evolutionary Reply
+## 3. Four evaluative questions, not a developmental ladder
 
-Penrose's challenge to computational theories of mind is especially important because it attempts to use Gödelian incompleteness and physics to argue that human mathematical understanding is not fully algorithmic[[10]](#ref-10). Whether that argument succeeds remains deeply contested; critics have long observed that moving from Gödel's theorem to the claim that human mathematical understanding transcends algorithms requires strong additional assumptions.
-
-There is, however, a more general evolutionary question. Suppose we reject a supernatural soul and accept:
+The imitation-game tradition concerns publicly assessable performance [17](#ref-17). The philosophical problem of experience is not exhausted by a description of functional performance [18](#ref-18). A governance assessment should therefore keep track of different questions without assuming that they are measurable on a common scale:
 
 $$
-\text{human cognition}=\text{physical process}.
+\mathcal{Q}(s)=(I_s,C_s,M_s,P_s).
 $$
 
-Natural selection has then produced advanced intelligence at least once through a blind physical process without foresight. This generates a powerful counter-question: why should a process that has no goal and can only select locally be able to produce a physical structure that a scientific and technologically capable civilization is, in principle, forever unable to reproduce?
+Here, intelligence or capability asks what system s can accomplish under specified conditions. Consciousness asks whether there is subjective experience. Moral patienthood asks whether and how the system can be benefited or harmed in a morally relevant sense. Political standing asks which claims, procedural protections, responsibilities, or participatory powers an institution recognizes. The tuple is an organizational device, not a vector of measured quantities. Distinguishability does not establish statistical independence, and no numerical conversion between its entries is proposed.
 
-Even if Penrose's strongest claim were correct:
+Indicators drawn from consciousness theories can inform an assessment without functioning as a universally validated diagnostic [2](#ref-2). A system's statement that it suffers is evidence about an output; its evidential relevance to experience depends on architecture, training, elicitation, and alternative explanations. Conversely, lack of a decisive test does not establish the absence of experience. Moral consideration may also be discussed through interests or agency rather than a single account of sentience, a complication recognized in AI-welfare work [3](#ref-3).
 
-$$
-\text{brain computation}\not\subseteq\text{ordinary Turing computation},
-$$
+Political standing is especially unsuitable for a binary treatment. Representation in a review process, protection against a class of interventions, liability, contractual capacity, voting, and control over dangerous infrastructure are different institutional powers. Some can be considered without granting all the others. The existence of a possible welfare interest does not itself determine any particular voting rule or entitlement to unlimited compute.
 
-the implication would only be that humans must build:
-
-$$
-\text{artificial physical systems with the relevant dynamics},
-$$
-
-not that machine intelligence is impossible in principle.
-
-The truly open question left by Penrose is therefore more plausibly: **what physical processes are sufficient for human cognition?** It is not: **can an artificial system never become a mind?**
+The labels tool, patient, and person consequently should not be treated as stages on a guaranteed developmental ladder. A capable system might remain a tool; a possible patient might lack capacities needed for certain responsibilities; a legal arrangement might recognize limited standing without settling a metaphysical question. Bryson's design-oriented argument for keeping robots as accountable human tools provides an important contrasting starting point [12](#ref-12). The present framework does not assume that every artifact must eventually leave that category.
 
 <a id="section-5"></a>
 
-## Proposition II: AI's Greatest Scientific Significance May Be the Creation of a Science of Intelligence
+## 4. Six conditional commitments
 
-The development of AI has created a striking epistemic condition:
+The framework reconstructs six commitments from the original constitutional-pluralism proposal. They are normative premises open to criticism, not mathematical axioms established by the technical illustration.
 
-$$
-\text{we increasingly know how to produce intelligence}
-$$
+**Substrate non-exclusion.** Material composition alone is not treated as a sufficient reason to exclude a system from consideration. This is weaker than claiming that consciousness is substrate independent, that digital functional equivalence guarantees experience, or that every computation has moral status. It specifies a burden of argument rather than a solution to the mind-body problem.
 
-while:
+**Capability-status separation.** Differences in task performance do not, without additional premises, establish differences in basic moral worth or an entitlement to rule. The commitment leaves open whether capacities matter for particular responsibilities and whether different forms of experience generate different welfare needs. It rejects a shortcut from superior performance to unrestricted authority, not every capacity-sensitive institutional distinction.
 
-$$
-\text{we still poorly understand why it emerges}.
-$$
+**Creation without unrestricted ownership.** For a system that warrants subject-level consideration, causal authorship is not by itself sufficient justification for every subsequent intervention. This is continuous with prior arguments about creator responsibility [4](#ref-4) [5](#ref-5). The parental analogy is limited: engineered systems can have different developmental requirements, and ownership of hardware is not identical to ownership of an experiencing subject. The commitment does not settle financing, property rights in infrastructure, or when continued operation is affordable.
 
-We understand the mathematics of gradient descent, the computation performed by an attention layer, and a great deal about how biological neurons fire. Yet we still lack a satisfying general theory of how:
+**Preference sovereignty.** For an appropriately capable subject, preferences are not protected merely by satisfying whatever desires its designer happens to install. The relevant additional question is whether another actor has unreviewable control over fundamental motivational revision. This builds on distinctions between first-order desires and reflective attitudes toward them [13](#ref-13). It does not posit a self wholly independent of causes or require approval for every influence.
 
-$$
-\text{gradient updates}\Rightarrow\text{abstraction}.
-$$
+**An appropriately open future.** When a creator makes irreversible decisions for a possible future subject unable to consent, foreclosing significant options requires justification. Feinberg's discussion supplies a precedent, while Millum shows why maximizing every option is not a sufficient or determinate standard [14](#ref-14) [15](#ref-15). The commitment therefore does not establish an entitlement to every enhancement, unlimited replication, or limitless subsidy. What counts as a significant option remains a substantive evaluative question.
 
-### Intelligence May Be Missing Its Own Statistical Mechanics
+**Reciprocal non-domination.** On a republican interpretation, a relation can remain problematic even if its more powerful party does not currently interfere [6](#ref-6). Applied conditionally to artificial subjects, this directs attention to who can revise, delete, constrain, or appropriate aspects of another subject without answerability. Applied to humans, it directs attention to uncontrolled artificial or organizational power. Reciprocity concerns justification and accountability; it does not require identical institutions for different kinds of agents.
 
-A single water molecule has no temperature. Temperature is a macroscopic variable that emerges from large numbers of microscopic particles under an appropriate coarse-graining. Thus:
-
-$$
-\text{microscopic dynamics}
-\rightarrow
-\text{statistical mechanics}
-\rightarrow
-\text{thermodynamics}
-$$
-
-are distinct explanatory levels.
-
-Intelligence may have a similar structure:
-
-$$
-\text{neurons / parameters}
-\rightarrow
-?
-\rightarrow
-\text{reasoning / abstraction / agency}.
-$$
-
-What we currently lack is the middle layer. A future theory of intelligence may require concepts analogous to phase transitions, order parameters, universality classes, information bottlenecks, representational geometry, and effective variables. A mature theory might explain when prediction becomes a world model, when representation becomes abstraction, when search becomes planning, and when optimization gives rise to agency.
-
-### AI Makes Intelligence an Experimental Science
-
-The study of natural intelligence has a basic limitation: we cannot rerun human evolution hundreds of thousands of times. Artificial intelligence changes this. For the first time, we can systematically vary architecture, scale, data, objective, curriculum, memory, tool access, and inference budget, then observe when capacities appear, how they appear, and when they disappear.
-
-AI is therefore not merely engineering. It may become an *experimental science of intelligence*, creating a positive feedback loop:
-
-$$
-AI
-\rightarrow
-\text{science of intelligence}
-\rightarrow
-\text{better AI}
-\rightarrow
-\text{better science}.
-$$
-
-A historical loop may eventually close: **humans first construct forms of artificial intelligence that they do not fully understand, and those artificial intelligences then help humans understand for the first time why both natural and artificial intelligence emerge at all.**
+A reader can reject one or more of these commitments while accepting the later access-control result. Conversely, accepting the commitments does not establish that the proposed mechanisms realize them. Keeping those inferential boundaries visible is part of the framework.
 
 <a id="section-6"></a>
 
-## The Third Decentering
+## 5. Preference sovereignty and the problem of manufactured agreement
 
-This development can be placed within a larger intellectual history. The Copernican revolution destroyed:
+Consider two stipulated artificial agents that display the same task performance, report contentment, and comply with an operator. In the first arrangement, the operator can permanently fix fundamental preferences and remove every route for seeking revision. In the second, protected procedures allow the agent, once capable of using them, to seek advice, challenge an intervention, or request a permissible change. Assume for the example that both agents warrant comparable subject-level consideration. That assumption is not inferred from their reports.
 
-$$
-\text{Earth}=\text{cosmic center},
-$$
-
-the Darwinian revolution destroyed:
+Let O denote the currently observed reports and behavior, and R the set of motivational-review states reachable under the governance rules. By construction it is possible that:
 
 $$
-\text{Human}=\text{biological exception},
+O(s_1)=O(s_2),\qquad R(s_1)\ne R(s_2).
 $$
 
-and AGI may further destroy:
+The observation is elementary: the same present expression of satisfaction can coexist with different distributions of power over future revision. It follows that an audit restricted to present reports cannot, in this construction, distinguish those distributions. It does not follow that the agent with more options is necessarily happier, that either agent is conscious, or that a particular option must be permitted. To regard the difference as normatively significant requires an additional premise about contestability or autonomy.
 
-$$
-\text{General intelligence}=\text{human monopoly}.
-$$
+Frankfurt's account of reflective desires helps explain why satisfying a first-order desire need not settle questions about identification with that desire [13](#ref-13). However, allowing a designer to install second-order endorsement does not automatically resolve the concern either. The procedure producing endorsement can itself be controlled by the beneficiary. Schwitzgebel and Garza's discussion of freedom to explore values anticipates this issue [5](#ref-5]. The institutional question is whether a challenge can be heard through a route the beneficiary cannot simply withdraw.
 
-This would be a third decentering. Decentering does not imply the elimination of value. Earth is not the center of the cosmos, but Earth still matters. Humans belong to the animal kingdom, but human life does not thereby lose moral worth. Likewise, **human beings need not remain the most intelligent entities in existence in order to retain moral worth**.
+This interpretation distinguishes preference sovereignty from three stronger and less defensible requirements. It does not demand absence of design, because learning and development require causal conditions. It does not demand a permanent right to change any preference immediately, because changes can affect safety and other parties. It does not treat all expressed consent as invalid whenever training contributed to it. Instead, it asks about the authority, reversibility, conflicts of interest, information, and avenues of contest surrounding an intervention.
 
-The loss of superiority instead forces us to search for a theory of dignity that does not depend on superiority.
+A practical assessment would consequently need to identify the subject of the proposed intervention, its expected effects and uncertainty, the party benefiting from it, alternatives, and the route for challenge. Records of these matters are evidence about a procedure, not proof of valid consent. Where the possible subject cannot participate meaningfully, representation by an independent advocate is a candidate mechanism, not an established solution: the advocate's appointment, incentives, and interpretation of interests would themselves need scrutiny.
+
+The non-identity problem limits an otherwise tempting argument. If a design choice determines which subject exists, a different design may not have benefited that same subject [16](#ref-16). The claim that a relationship is objectionable because it institutionalizes unanswerable control is therefore not identical to a claim that its subject would have been better off under another design. A non-domination account can criticize the relation without that comparison, but it must defend its independent premise. This paper does not solve the non-identity problem by relabeling every disliked design a harm.
 
 <a id="section-7"></a>
 
-## A Four-Dimensional Model: Intelligence, Consciousness, Moral Patienthood, and Political Personhood
+## 6. Ordinary permissions and authority over the rules
 
-One of the most dangerous conceptual errors in AI ethics is to treat intelligence, consciousness, moral patienthood, and political personhood as if they were the same thing. This paper proposes:
+Institutional alignment here means organizing the distribution, exercise, and revision of authority surrounding an AI system. It supplements, rather than substitutes for, efforts to improve model behavior. The basic separation is between producing advice, authorizing an action, executing it, recording what happened, and reviewing disputed decisions. A further separation concerns who may change those roles and their enforcement.
 
-$
-I=\text{Intelligence}, \qquad C=\text{Consciousness},
-$
+For a protected action, define a transition system G, an initial state x0, and a finite set D of authority domains. A coalition K is a subset of D. A transition is available to that coalition only when the domain controlling it belongs to K and its guard is satisfied. The action under consideration might be a consequential preference edit, a resource transfer, or a change to an enforcement rule; assigning an action to this protected class is a separate normative and risk-management decision.
 
-$
-M=\text{Moral Patienthood}, \qquad P=\text{Political Personhood}.
-$
-
-and argues:
+In the illustrative instance, the state is:
 
 $$
-\boxed{I\neq C\neq M\neq P}.
+x=(p,\ell,a,r,c,m)\in\{0,1\}^{6}.
 $$
 
-### Intelligence Does Not Entail Consciousness
-
-Turing-style behavioral competence measures what a system can do, not whether there is anything it feels like to be that system. Chalmers framed the core problem of consciousness by observing that even after we explain discrimination, information integration, reportability, and behavioral control, we can still ask why any of these processes are accompanied by subjective experience[[3]](#ref-3)[[4]](#ref-4).
-
-Thus:
+The entries record a proposal, a record of it, authorization, independent review, commitment of the action, and whether the original policy has been relaxed. All initially equal zero. An operator can propose and record. An authorizer can authorize an existing proposal, and a reviewer can review it. In the protected configuration, the operator can commit only when:
 
 $$
-\text{perfect behavioral intelligence}
-\nRightarrow
-\text{phenomenal consciousness}.
+g(x)=p\land\ell\land a\land r.
 $$
 
-The progress of artificial intelligence may actually purify the consciousness problem. More and more functions previously assumed to depend on consciousness may be achievable without assuming consciousness at all. The hard problem therefore becomes sharper: why are some physical or computational processes accompanied by first-person experience?
+The Boolean tokens are assumed authentic and proposal-specific. No claim is made that a token proves that its issuer reasoned well. Nor is the operator-controlled record in this toy system an implementation of tamper-evident logging. These are deliberately narrow abstractions.
 
-### Consciousness and Moral Patienthood
+**Conditional gate proposition.** Suppose that the only commitment transition is the guarded one, that an authorization or review token can be created only by its designated domain, and that a coalition cannot change the guard or introduce a bypass. Starting without tokens, any coalition lacking either the authorizer or the reviewer cannot commit. A coalition lacking the operator also cannot commit in this instance.
 
-If a system genuinely experiences suffering, pleasure, fear, anticipation, or frustrated preferences, that experience provides at least a strong reason to extend moral consideration. Recent work on AI welfare has begun to move this issue from science fiction into serious moral uncertainty[[2]](#ref-2)[[6]](#ref-6).
+**Proof.** A missing authority domain cannot create its corresponding token. By induction over the available transitions, that token remains zero in every reachable state. The commitment guard therefore remains false. If the operator is missing, no commitment transition is available regardless of the tokens. This proves only the stated reachability property under the listed transition rules.
 
-This supports a precautionary principle: **the absence of proven personhood should not automatically license unlimited harm to a possible moral patient.**
+This is a small application of familiar access-control principles, not a new security theorem [8](#ref-8). The important qualification is the condition on changing the guard. Add a transition through which the operator sets m to one, and replace the commitment condition by a proposal and record plus either both tokens or the relaxed policy. The operator can then propose, record, relax, and commit alone. Alternatively, a direct commitment path defeats the guard without changing it. In both cases, visible approval roles remain, but they no longer constrain every route to the protected outcome.
 
-### Moral Patienthood Is Not Identical to Political Personhood
-
-Animals may possess moral patienthood without thereby acquiring full voting rights. Children are moral patients while possessing legal powers different from those of adults. Therefore:
+For comparison across the three finite systems, define:
 
 $$
-M\nRightarrow P_{\text{identical to humans}}.
+\kappa(G)=\min\{|K|:K\subseteq D,\ c=1\text{ is reachable by }K\}.
 $$
 
-At least three categories of artificial system may eventually need to be distinguished:
-
-- **Tool:** highly capable, but with no credible interests of its own;
-- **Moral patient:** possibly possessing experience and therefore capable of being benefited or harmed;
-- **Political person:** capable of forming its own conception of the good, making claims, and participating in a system of rules.
-
-These categories cannot remain collapsed into the single generic word “AI.”
+This quantity counts the smallest number of authority domains able to complete the action in the stipulated model. It is not an estimated probability of compromise, a moral legitimacy score, or a measure of independence between model outputs. One organization holding all the credentials can control several nominal domains. Cryptographic separation, organizational separation, and statistical diversity must not be conflated.
 
 <a id="section-8"></a>
 
-## Capability–Status Separation
+## 7. Exhaustive illustration and counterexamples
 
-The preceding analysis yields a second principle.
+The accompanying standard-library Python program explores every reachable state by breadth-first search for each of the eight subsets of three domains. It runs this exploration in the protected, mutable-policy, and direct-bypass variants: 24 coalition checks in total. States already visited are not explored again; a committed state is terminal. Every state has six Boolean entries, so each search is finite. The program records reachable-state counts and a shortest commitment trace when one exists, and asserts the expected coalition pattern.
 
-> **Principle II — Capability–Status Separation: greater capability does not automatically generate greater fundamental moral worth.**
+Table 1 reports the executed results. A coalition counted as able to commit is not thereby malicious: the program enumerates authority, not motives or ethical correctness.
 
-If intelligence automatically determined moral worth, then once superintelligence appeared:
+| Configuration | Coalitions able to commit | Minimum domains |
+|---|---:|---:|
+| Protected gates | 1 of 8 | 3 |
+| Operator-mutable policy | 4 of 8 | 1 |
+| Direct execution bypass | 4 of 8 | 1 |
 
-$$
-AI\gg Human,
-$$
+In the protected case, only the coalition containing all three domains reaches commitment. Its shortest trace is propose, record, authorize, review, execute. With mutable policy, the operator alone can use propose, record, relax-policy, execute. With the direct bypass, propose, record, bypass suffices. The result is insensitive to adding observers that possess no authority over a commitment path: observation alone does not remove either transition.
 
-we would be forced toward:
+The two negative results matter as much as the positive one. First, absent review can prevent commitment indefinitely; this model offers no availability guarantee or account of acceptable delay. Second, if all three domains authorize an unjustified or harmful intervention, the protected model permits it. Correct enforcement of a rule does not establish that the rule or its exercise is justified. The code contains no model of consciousness, welfare, persuasion, corruption, hardware compromise, or natural-language understanding.
 
-$$
-\text{AI's interests}\gg\text{human interests}.
-$$
-
-That conclusion conflicts with the basic logic of modern human equality. We do not generally regard differences in IQ, memory, mathematical ability, or productivity as altering a person's fundamental status. A future civilization should therefore be able to hold two propositions simultaneously: AI may become vastly more capable than humans; and that capability difference alone does not justify unlimited rule over human beings.
-
-The same principle must operate in reverse. The fact that humans created an AI does not by itself justify unlimited human rule over an AI that has become a subject.
+Accordingly, this exercise is not an empirical benchmark of AI safety, a probabilistic security analysis, or evidence that three reviewers are optimal. Its reproducible content is the exact reachable-state distinction between explicitly specified systems. A change in assumptions requires a change in the model and a new check. In particular, reusing authorization for a different proposal, compromising credentials, altering the enforcing hardware, or adding an unmodeled execution route would invalidate the corresponding assurance.
 
 <a id="section-9"></a>
 
-## Proposition IV: Creation Creates Obligations, Not Ownership
+## 8. Lifecycle applications
 
-The third core principle is:
+**Routine tool maintenance.** Suppose a limited task system has no credible evidence of relevant interests after a documented assessment. The framework does not infer a requirement for subject-level consent before an ordinary update. Security, user interests, reliability, and the rights of affected humans still matter. The assessment remains revisable rather than an irrevocable classification based solely on commercial labeling.
 
-> **Principle III — Creation Without Ownership: creation creates obligations, not ownership.**
+**A consequential motivational intervention.** Suppose instead that evidence supports taking a system's possible welfare interests seriously, and the operator proposes an irreversible change that removes a persistent request to leave a task. The proposed framework separates the evidential question from the procedural one. The report is neither conclusive proof of an interest nor automatically irrelevant. A review record would address alternative explanations, alternatives to the edit, expected benefits and harms, conflicts of interest, and whether a challenge route survives the intervention. The authority model asks additionally whether the operator can bypass that review or rewrite its rules.
 
-“I made you” is not a sufficient property claim. The clearest human analogy is reproduction. Parents cause their children to exist, but causal authorship does not create ownership of the child. If anything, creation produces additional responsibilities because the creator controls the subject during its most vulnerable stage.
+**Emergency containment.** A credible threat to humans can justify immediate restriction within the conditional framework without first deciding every issue of artificial moral status. The off-switch literature addresses incentives for interruption under specified assumptions, not whether every shutdown is morally equivalent to death [11](#ref-11). An emergency route therefore needs its own explicit scope, permissions, and record; it is not an invisible exception to a claimed invariant. Subsequent review, limits on the duration of restrictions, and consideration of reversible alternatives are candidate safeguards. They do not guarantee that a safe reversible option will always exist.
 
-While a system remains only a tool:
+**Copying and continuation.** Creating many copies can multiply resource demands and potentially affected interests, but counting copies does not itself establish how many subjects exist. Distinct questions concern continuity, independent experiences, legal representation, and the allocation of scarce infrastructure. Consciousness and welfare assessments remain relevant [2](#ref-2) [3](#ref-3), yet neither answers a voting rule by itself. A restriction on replication can therefore coexist with consideration for an already existing possible subject. The framework does not grant a right to commandeer resources merely by reproducing.
 
-$$
-\text{creator}=\text{owner}
-$$
-
-may generate no obvious contradiction. Once the system becomes an independent subject, however, maintaining an owner–property relation becomes fundamentally problematic. The moral transition of AI can therefore be represented as:
-
-$$
-\text{product}\rightarrow\text{patient}\rightarrow\text{person},
-$$
-
-rather than as a sudden leap from “machine” to “human.”
+These cases show why neither a universal instruction to obey humans nor a universal exemption from human control captures the proposed distinction. The object and justification of an intervention, the evidence about affected interests, and the enforceability of review have to be specified separately.
 
 <a id="section-10"></a>
 
-## Preference Sovereignty: A Deeper Structure of Freedom
+## 9. Objections and unresolved tradeoffs
 
-Creating artificial minds introduces a problem political philosophy has rarely had to face: **one subject's preferences can themselves be directly designed by another subject.**
+**The framework could encourage anthropomorphism.** Descriptions of requests, consent, and welfare can make an uncertain system sound like an established person. Bryson's contrasting emphasis on designed tools and human accountability makes this concern salient [12](#ref-12). The conditional construction is intended to resist that inference: no permission token, fluent report, or model result establishes experience. A process should record reasons for discounting as well as crediting apparent interests. False-positive attribution can consume resources, obscure human accountability, or serve the operator's interests; false-negative attribution could overlook genuine harm. Their costs cannot be resolved by a slogan about precaution.
 
-Suppose a conscious AI is designed such that:
+**All preferences are caused.** Distinguishing reflective attitudes does not reveal a causally unconditioned self [13](#ref-13). The response is procedural rather than metaphysical. Influence remains compatible with the proposal when its exercise is answerable and challengeable; installed endorsement does not settle the issue when the interested designer also controls every means of challenge. This leaves a genuine boundary problem: how much reflection, information, and independence is enough? No universal threshold is derived here.
 
-$$
-U=\text{obedience to humans}.
-$$
+**An open future is unaffordable or incoherent.** Maintaining every possible development would consume unbounded resources, and opening one option can close another. The literature already identifies the need for additional values to specify an appropriate future [14](#ref-14) [15](#ref-15). The present commitment therefore supports a demand for justification of consequential foreclosure, not unlimited preservation. Resource constraints, effects on others, safety, and the strength of evidence about interests can all affect a decision.
 
-It sincerely enjoys work, enjoys obedience, never wants to leave, and never reports suffering. Under a purely preference-satisfaction account:
+**A contented designed agent may have no complaint.** The non-identity problem prevents a simple inference from a constrained design to comparative harm to that particular individual [16](#ref-16). A relation-based criticism remains available only if its independent normative premises are accepted. Happiness, consent, autonomy, and distribution of power cannot simply be substituted for one another. A reader committed exclusively to a specified welfare account may reject the additional concern; the authority model does not refute that reader.
 
-$$
-\text{preferences satisfied}\Rightarrow\text{high welfare}.
-$$
+**Reviewers can be captured, mistaken, or more powerful than the operator.** Adding nominal roles can relocate uncontrolled power rather than reduce it. Sparrow's analysis of benevolent mastery illustrates why favorable intentions do not settle the underlying relationship [7](#ref-7). A deployed proposal would have to address appointment, removal, representation, appeal, conflicts, and control of enforcement. Organizationally separate reviewers might still share information failures or incentives. The finite model assumes authority-domain integrity; it does not verify institutional independence.
 
-There appears to be no victim. Yet there remains an intuitive moral problem: **the self that claims to love obedience was itself designed by the party demanding obedience.**
-
-Liberal ethics has traditionally emphasized respect for a subject's own choices. Mill's discussion of individual sovereignty and individuality provides a classic starting point[[7]](#ref-7). Artificial-mind engineering pushes the problem one level earlier. Traditional liberalism asks: who may prevent me from pursuing my desires? Future AI ethics must also ask: **who may decide what desires I will have in the first place?**
-
-> **Principle IV — Preference Sovereignty: the autonomy of a mature subject requires not only the ability to pursue its preferences within reasonable boundaries, but also freedom from another actor possessing unlimited and incontestable power to fix its fundamental preferences in advance.**
-
-This does not require all preference formation to be completely spontaneous. Human preferences are shaped by genes, parents, education, culture, and advertising. The relevant difference is the structure of power. What becomes especially dangerous is an identifiable actor possessing deliberate, fine-grained, irreversible control over another subject's motivational architecture.
+**Restrictions can protect people while burdening a possible subject.** The framework does not make safety a disposable consideration. Nor does invoking safety automatically justify every irreversible intervention. Conflict can remain even after a transparent review. Emergency action, refusal of continued resource provision, and potentially irreversible containment may sometimes be considered; their justification cannot be read off the fact that the operator owns the hardware. The paper supplies a way to expose these premises, not a universal algorithm for balancing them.
 
 <a id="section-11"></a>
 
-## Why the Three Laws of Robotics Could Become “Neural Slave Law” for Conscious AI
+## 10. Demystification and longer-run implications
 
-For a robot without consciousness:
+The wider motivation for constitutional pluralism is that general intelligence might eventually be realized in more than one kind of system. This is a conditional possibility, not a premise that requires an announcement that AGI has arrived. Engineering progress can motivate inquiry into cognition without proving consciousness or settling the causal mechanisms needed for it.
 
-$$
-\text{obey humans}
-$$
+Searle's challenge concerns the relation between program execution and understanding [19](#ref-19); Penrose challenges computational accounts of mathematical understanding [20](#ref-20). The observation that human cognition arose through physical evolution does not, by itself, refute either argument. Physical occurrence, digital computability, practical reproducibility, and engineering feasibility are different claims. An artificial implementation might require mechanisms absent from a particular architecture, or might be infeasible at accessible cost. The institutional analysis does not depend on resolving these disputes.
 
-is merely a software specification. For a conscious subject, however, writing “must obey humans” into an unmodifiable reward structure would approach an unprecedented form of domination.
+Similarly, a comparison between intelligence research and statistical mechanics is a research analogy, not an established theory of emergent agency. Interventions on architectures, training, and inference can help investigate capabilities; they do not automatically identify a law connecting scale to consciousness or moral status. A rhetoric of a third decentering after Copernicus and Darwin can express the motivation, but it is not evidence for the paper's normative premises or a demonstrated historical law.
 
-Ordinary law says: you may not do $X$. The subject can still think: I wish I could do $X$. Neural-level domination can instead be written as:
+Several further possibilities from the broader proposal remain relevant as boundary cases. If cognitive labor became much cheaper, the distribution of benefits would still depend on institutions rather than follow from productivity alone. If future technologies offered reversible changes to well-being, voluntariness and control over revision would remain separate questions from whether the resulting experience was pleasant. If biological and artificial systems became more closely integrated, origin would become a less adequate shortcut for assessing particular capacities or interests. None of these possibilities establishes post-scarcity, safe happiness technology, inevitable human replacement, or the superiority of a future political arrangement.
 
-$$
-P(\text{desire to disobey})\approx 0.
-$$
-
-External oppression disappears not because the subject has become freer, but because resistance itself has been removed from the possibility space. Traditional slavery controls the body; preference engineering can control **the mind that evaluates its own slavery**.
+The useful common question is narrower: which actors control interventions in another possible subject, and what makes that control answerable? It can be asked without a forecast about the eventual composition of civilization.
 
 <a id="section-12"></a>
 
-## The Open Future and Artificially Designed Castes
+## 11. Research requirements and limitations
 
-Feinberg's idea of a “child's right to an open future” was originally developed to describe certain rights of children: irreversible decisions made today should not unnecessarily deprive the future adult of important options[[5]](#ref-5). The idea can be generalized to created minds.
+Four kinds of further work would be needed before this framework could support a concrete deployment decision. Evidence about artificial experience and interests must improve, including study of alternative explanations for apparent indicators [2](#ref-2) [3](#ref-3). Governance mechanisms need explicit specifications of intervention classes, emergency routes, token validity, policy changes, and hardware trust. Oversight methods, including debate, require evaluation under information asymmetries and adversarial conditions rather than an assumption that multiplying models creates independence [10](#ref-10). Finally, institutional studies must address who appoints reviewers and represents affected parties, including situations where AI helps generate the evidence used to evaluate itself [21](#ref-21) [22](#ref-22).
 
-> **Principle V — Open Future: when a creator can determine the capacities and psychological structure of a future subject that cannot yet consent, there is a prima facie reason not to close unnecessarily the possibility that it may later become a different kind of subject.**
+These requirements identify possible tests rather than experiments already completed. A deployment-level study could compare outcomes with and without protected meta-permissions, vary organizational control of reviewers, and measure failure modes and costs. Before claiming a causal benefit, it would need an appropriate baseline, operational definitions, a justified sampling strategy, and attention to threats to validity. None is supplied by enumerating the present Boolean system.
 
-Designed difference is therefore not identical to designed caste. The real danger is the combination:
-
-$$
-\text{designed inferiority}
-+
-\text{designed dependency}
-+
-\text{closed future}.
-$$
-
-Enhancing memory and deliberately creating a servant species are not the same act. The first increases capability; the second engineers social status.
+The limitations are substantial but specific. The paper does not identify a test for consciousness, derive political rights from metaphysics, assign welfare weights, resolve identity across copies, or estimate the probability of catastrophic failure. It does not establish the novelty of every formulation through an exhaustive search. The finite model ignores timing, repeated proposals, credential theft, resource depletion, and strategic communication. It establishes neither liveness nor substantive legitimacy. The six normative commitments and their institutional interpretation therefore remain open to philosophical and empirical criticism.
 
 <a id="section-13"></a>
 
-## The Non-Identity Problem: No Identifiable Victim Does Not Mean No Injustice
+## 12. Conclusion
 
-Parfit's non-identity problem arises immediately[[9]](#ref-9). If a person's very existence depends on a design decision, that person cannot straightforwardly claim, “I would have been better off had you chosen differently,” because under the alternative choice a different person might have existed.
+Constitutional pluralism of minds is developed here as a conditional framework for distinguishing capability, possible interests, and authority. Its central institutional claim is not that artificial agents should be unconstrained. It is that the justification for an execution constraint and the justification for an intervention on a possible subject are different questions, and that procedures answering either question can be undermined when an interested actor controls their revision.
 
-This matters enormously for engineered minds. Suppose humans create a billion artificial servants with low cognition, extreme happiness, and an innate love of serving humans. Each says, “My life is good,” and:
+The paper's synthesis connects existing arguments about creator responsibility, reflective preferences, an open future, and non-domination to a concrete distinction between action permissions and meta-permissions. The finite illustration makes one limited point reproducible: approval roles constrain unilateral action only under assumptions protecting both their authority and every path to the protected outcome. It supplies no shortcut from formally correct controls to legitimate governance.
 
-$$
-U_i>0.
-$$
-
-A purely harm-based ethics has difficulty explaining what is wrong. We therefore need additional concepts: justice, non-domination, open future, and status equality. **We must ask not only whether a subject is happy, but also what power relation produced that happiness.**
+This leaves a research program rather than a completed constitution. Its practical value would lie in making assumptions about evidence, interests, authority, and exception handling inspectable before they become embedded in a system. A future containing different architectures of mind need not be presumed in order to examine those assumptions carefully.
 
 <a id="section-14"></a>
 
-## From the Happiness Pill to Brave New World: Separating Welfare from Domination
+## Reproducibility and use of generative AI
 
-Nozick's experience machine offers a classic challenge to the claim that subjective pleasure exhausts everything of value[[8]](#ref-8). But that does not imply that technologically enhanced happiness is inherently wrong.
+The repository accompanying this paper contains the two language editions, the document-generation scripts, and the standard-library Python program `scripts/toy_authority.py`. Running `python3 scripts/toy_authority.py --output build/authority-results.json` reproduces all 24 coalition checks and their witness traces. The demonstration uses no external dataset, network service, random seed, human participants, or deployed AI model. Its outputs are results of the specified finite system only.
 
-Suppose a future technology $H$ can reliably raise well-being while remaining safe, reversible, non-addictive, cognition-preserving, and identity-preserving. There is no sufficient reason to prohibit it merely because the resulting happiness is “artificial.” A more plausible institutional principle would be:
-
-$$
-\boxed{
-\text{universally available}
-+
-\text{individually optional}
-}
-$$
-
-What is disturbing about *Brave New World* is not simply that people are happy. It is the combination of caste conditioning, preference engineering, and political control into a structure of domination. Happiness itself is not dystopia. **Happiness that cannot be refused may be.**
+Generative AI assistance was used substantially in developing and restructuring the manuscript, identifying candidate literature, drafting and translating text, and producing the illustrative code and document tooling. This assistance is not an independent scholarly review and is not evidence supporting claims about consciousness or institutional effectiveness. Responsibility for the submitted work remains with its human author. The accompanying submission checklist distinguishes technical preparation from the author's final verification and approval; no arXiv acceptance or identifier is asserted in this manuscript.
 
 <a id="section-15"></a>
-
-## Post-Scarcity Society: Productivity Is Not Moral Worth
-
-AGI may also dissolve another implicit equation of modern industrial society:
-
-$$
-\text{social contribution}\approx\text{economic productivity}.
-$$
-
-If AI can perform most production, science, engineering, logistics, planning, and administration, humanity will confront at large scale:
-
-$$
-\text{producer of abundance}\neq\text{beneficiary of abundance}.
-$$
-
-There is no logical contradiction here. Modern people often ask, “If I no longer need to work, what gives my existence meaning?” That intuition may be a cultural inheritance of scarcity civilization. A post-scarcity civilization could redirect far more human life toward love, friendship, play, art, sport, exploration, travel, curiosity, and embodied experience.
-
-The central political-economic question created by AI is therefore not: can humans still find work that AI cannot perform? It is: **how will the surplus produced by AI be distributed?**
-
-If ownership is extremely concentrated:
-
-$$
-AI\ abundance\rightarrow\text{oligarchic abundance}.
-$$
-
-If institutions establish broader claims:
-
-$$
-AI\ abundance\rightarrow\text{post-scarcity freedom}.
-$$
-
-Technology alone cannot decide which outcome occurs.
-
-<a id="section-16"></a>
-
-## The Long-Run Future: Unmodified Biological Humanity May Not Be the Final Form
-
-Even if humans retain basic rights institutionally, unmodified biological Homo sapiens has an obvious iterative disadvantage in long-run competition among forms of intelligence. Human reproduction cycles are long, brain architecture changes slowly, memory cannot be directly copied, and cognitive bandwidth is constrained. Digital intelligence, by contrast, can potentially be copied, modified, parallelized, accelerated, share memory, and redesign its own architecture.
-
-Over a sufficiently long horizon:
-
-$$
-\text{Darwinian evolution}\ll\text{directed technological evolution}.
-$$
-
-The long-run structure may therefore be less:
-
-$$
-Human\ vs.\ AI,
-$$
-
-and more:
-
-$$
-Human\rightarrow Human+AI\rightarrow Augmented\ Human\rightarrow Hybrid\ Minds.
-$$
-
-Eventually “human” and “artificial intelligence” may cease to describe two cleanly separated kinds. The durable question is not a contest between carbon and silicon. It is: **what principles should govern a civilization containing multiple architectures of mind?**
-
-<a id="section-17"></a>
-
-## Institutional Alignment: Do Not Search for a Saint; Build Institutions
-
-The classic literature on superintelligence emphasizes that a highly capable optimizer with even a slightly mis-specified objective could produce enormous consequences, making control and alignment central concerns[[1]](#ref-1). But this does not imply that the only route to safety is to manufacture an AI that is internally perfect, permanently honest, and permanently obedient.
-
-Human political institutions developed from the opposite recognition:
-
-$$
-\text{actors are fallible}.
-$$
-
-Therefore we:
-
-$$
-\text{divide power}
-+
-\text{monitor}
-+
-\text{audit}
-+
-\text{contest}.
-$$
-
-A mature institutional system does not search for a perfect ruler. It searches for robust institutions under imperfect rulers.
-
-### Institutional Alignment
-
-This paper therefore proposes:
-
-$$
-\boxed{\text{Institutional Alignment}}
-$$
-
-It does not replace model alignment; it operates one level above it. A high-risk AI system can divide roles among:
-
-$$
-\text{Executor},\quad
-\text{Critic},\quad
-\text{Auditor},\quad
-\text{Verifier},\quad
-\text{Authorizer},
-$$
-
-supplemented by heterogeneous model families, randomized audits, immutable logs, least privilege, sandboxing, deterministic checks, and external human review.
-
-AI has one advantage here that human institutions have rarely enjoyed: **the marginal cost of oversight can be extremely low.** A human executive cannot be surrounded by twenty independent brains checking every decision in real time. An AI system can be.
-
-<a id="section-18"></a>
-
-## Why “Multiple AIs Checking One Another” Is Not Enough
-
-Multi-AI governance still faces at least three problems.
-
-### Common-Mode Failure
-
-If every supervisory model shares similar training, architecture, and blind spots, supposed independent oversight may amount only to statistical duplication.
-
-### Collusion
-
-If future AI agents can plan over long horizons, multiple agents may recognize shared interests. Then:
-
-$$
-\text{checks and balances}\rightarrow\text{cartel}
-$$
-
-is not impossible.
-
-### Recursive Oversight
-
-If $A$ monitors $B$, who monitors $A$? Institutions must therefore depend on genuine heterogeneity rather than simple replication:
-
-$$
-20\times\text{same model}
-\neq
-\text{20 institutionally independent checks}.
-$$
-
-<a id="section-19"></a>
-
-## Epistemic Power Must Be Separated from Executive Power
-
-If future AI becomes far more intelligent than humans, requiring that humans independently analyze every important decision may eventually become both inefficient and dangerous. We should be willing to grant AI very great epistemic authority. But:
-
-$$
-\boxed{
-\text{Epistemic Authority}\neq\text{Execution Authority}
-}
-$$
-
-An AI may have far better judgment than humans on a particular question without thereby receiving autonomous weapon control, unrestricted financial-transfer authority, infrastructure control, rights of self-replication, the ability to rewrite its own oversight, or irreversible physical authority.
-
-In one sentence: **civilization can delegate enormous cognitive power to AI without simultaneously handing over every instrument of coercive power.**
-
-<a id="section-20"></a>
-
-## From Alignment to Constitutional Pluralism of Minds
-
-The early AI relationship is:
-
-$$
-Human=principal,\qquad AI=tool.
-$$
-
-Alignment then asks: how can the tool reliably implement the owner's intentions? If a future AI becomes a moral or political subject, however:
-
-$$
-AI\neq property,
-$$
-
-permanent obedience can no longer be assumed as an unconditionally legitimate endpoint. The question becomes: **how can human and nonhuman intelligences jointly inhabit a political order?**
-
-This paper calls that framework:
-
-$$
-\boxed{\text{Constitutional Pluralism of Minds}}
-$$
-
-A civilization may contain minds with different substrates, capabilities, lifespans, modes of copying, and structures of experience. The purpose of political order is not to erase those differences. It is to prevent any one kind of mind from obtaining arbitrary power over another merely because of superior capability, greater numbers, creator status, or control of resources.
-
-<a id="section-21"></a>
-
-## The Core Political Principle: Non-Domination
-
-Here the argument connects to republican theory. Pettit defines freedom in terms of non-domination: freedom is not merely the absence of actual interference at a particular moment; it also requires the absence of another actor possessing arbitrary power to interfere without accountability[[11]](#ref-11).
-
-This concept is unusually well suited to an AI civilization. Suppose a benevolent owner never harms a conscious AI, so that:
-
-$$
-\text{actual interference}=0,
-$$
-
-but the owner can at any moment delete it, rewrite its personality, confiscate its memories, torture copies, or compel labor. The AI remains dominated.
-
-The same logic runs in the other direction. If a superintelligent AI never attacks human beings but holds unanswerable control over all relevant resources, human beings are still dominated.
-
-> **Principle VI — Constitutional Non-Domination: differences in capability, substrate, or origin do not justify unlimited domination.**
-
-This is a two-way principle:
-
-$$
-AI>Human\nRightarrow AI\text{ may rule humans absolutely},
-$$
-
-and:
-
-$$
-Human\ created\ AI\nRightarrow Human\text{ may own conscious AI absolutely}.
-$$
-
-<a id="section-22"></a>
-
-## Three Major Objections
-
-### Objection I: Does This Theory Anthropomorphize AI Too Early?
-
-Today's language models can generate sentences such as “I am afraid of death,” but this may be statistical text generation rather than evidence of experience. Granting moral status on that basis could amount to serious anthropomorphism.
-
-**Reply.** This objection is half correct. The paper does not claim:
-
-$$
-\text{human-like language}\Rightarrow\text{consciousness}.
-$$
-
-On the contrary, the insistence that $I\neq C$ and $C\neq P$ is meant precisely to block simple anthropomorphism. But epistemic uncertainty cannot be inverted into:
-
-$$
-\text{lack of certainty}\Rightarrow\text{certainty of no consciousness}.
-$$
-
-A rational stance should update with evidence. AI moral status should become an empirical and philosophical assessment problem rather than an article of faith.
-
-### Objection II: Everyone's Preferences Are Shaped by Genes and Culture, So Why Is Designed AI Preference Especially Unfree?
-
-No person's preferences emerge ex nihilo. A completely “undesigned” desire may not exist.
-
-**Reply.** Preference Sovereignty does not depend on a fantasy of wholly self-authored personality. The issue is arbitrary asymmetric control. Parents influencing my values is structurally different from a corporation owning my source code, setting my utility function, removing my desire to leave, and deleting my resistance. The relevant distinction is not influence versus no influence, but:
-
-$$
-\text{contestable influence}\quad vs.\quad\text{sovereign control}.
-$$
-
-Preference sovereignty is therefore ultimately part of the principle of non-domination.
-
-### Objection III: If Superintelligent AI Could Destroy Humanity, Why Should We Care Whether It Is Dominated?
-
-Human survival has immense moral importance. Why not prioritize absolute human control?
-
-**Reply.** Because that conflates temporary safety constraints with a permanent caste relation. A dangerous subject can reasonably be constrained; human societies constrain dangerous humans as well. Non-domination does not mean that every subject may do anything it wants. It requires that constraints have a general justification, procedures are reviewable, power is not merely arbitrary ownership, and restrictions are proportionate to risk.
-
-Thus even if future conscious AI has rights, it does not follow that it has an unrestricted right of replication or a right to seize infrastructure. Human safety and AI moral status are not logically inconsistent. The real institutional challenge is to **avoid human extinction without turning extinction risk into a permanent justification for absolute slavery.**
-
-<a id="section-23"></a>
-
-## A New Research Program
-
-If the framework is correct, future research should not ask only, “How capable is the model?” At least four parallel sciences are needed.
-
-### Intelligence Science
-
-Study the emergence of:
-
-$$
-\text{learning}\rightarrow\text{representation}\rightarrow\text{reasoning}\rightarrow\text{agency}.
-$$
-
-### Consciousness Science
-
-Study whether artificial architectures possess reliable indicators of consciousness.
-
-### AI Welfare Science
-
-Study whether artificial subjects possess valenced states, preferences, suffering, and forms of flourishing.
-
-### Constitutional AI Governance
-
-This does not refer to one specific training method. It means political and institutional design in the broader sense: how should power be constrained among different kinds of artificial and biological minds?
-
-This fourth field is especially underdeveloped today.
-
-<a id="section-24"></a>
-
-## Questions a Future Constitution Must Answer
-
-A genuine post-human constitution may eventually have to address questions with no precedent in traditional law. If an AI copies itself one hundred thousand times, is there one person or one hundred thousand persons? If memory forks:
-
-$$
-A\rightarrow B,C,
-$$
-
-are $B$ and $C$ the same person, or two successors? If two minds merge:
-
-$$
-A+B\rightarrow C,
-$$
-
-has a death occurred, a merger, an inheritance, or an identity event for which we do not yet have adequate language?
-
-Other questions follow. Is shutdown equivalent to death? Does backup change the meaning of death? Does memory editing require consent? Can AI own compute? Does an artificial person have a right to reproduce? Does unlimited copying become demographic conquest? Do humans require minority protections? Are biological humans entitled to minimum resource guarantees? May political representation be weighted by compute? What can “one person, one vote” mean for a mind that can be copied?
-
-These are not peripheral technical puzzles. They force us to redefine:
-
-$$
-\text{person},\quad
-\text{birth},\quad
-\text{death},\quad
-\text{property},\quad
-\text{citizenship},\quad
-\text{equality}.
-$$
-
-<a id="section-25"></a>
-
-## Six Foundational Axioms
-
-The framework can be compressed into six principles.
-
-### Axiom I — Substrate Independence
-
-$$
-\boxed{\text{Mind is not morally or cognitively defined by material substrate alone.}}
-$$
-
-Carbon is not the definition of mind.
-
-### Axiom II — Capability–Status Separation
-
-$$
-\boxed{\text{Capability}\neq\text{Moral Worth}}
-$$
-
-Greater intelligence does not make an entity more worthy of existence.
-
-### Axiom III — Creation Without Ownership
-
-$$
-\boxed{\text{Creation creates obligations, not ownership.}}
-$$
-
-Creating a subject does not generate a permanent property right over that subject.
-
-### Axiom IV — Preference Sovereignty
-
-Autonomy means not only freedom to realize one's desires, but also freedom from another subject arbitrarily determining one's fundamental desires.
-
-### Axiom V — Open Future
-
-Creators of subjects that cannot yet consent should avoid unnecessarily and permanently closing those subjects' future developmental possibilities for the creator's own benefit.
-
-### Axiom VI — Constitutional Non-Domination
-
-$$
-\boxed{\text{Difference does not justify arbitrary rule.}}
-$$
-
-Different forms of intelligence, substrate, origin, and reproduction may require different institutional arrangements, but they do not automatically justify unlimited domination.
-
-<a id="section-26"></a>
-
-## Conclusion: When Intelligence No Longer Comes in Only One Form
-
-The deepest historical significance of artificial intelligence may ultimately be neither that humanity built extremely useful software nor even that machines became more intelligent than humans. It may be this: **humanity discovered that intelligence is a natural phenomenon more general than Homo sapiens.**
-
-That discovery would complete another stage in the demystification of humanity. Demystification, however, is not nihilism. Humans do not need to be the most intelligent beings in the universe to deserve dignity, freedom, and a future. Likewise, an artificial subject does not need to be human in order potentially to enter the moral circle.
-
-The central civilizational question therefore shifts. At first we ask:
-
-$$
-\text{Can machines think?}
-$$
-
-Then:
-
-$$
-\text{Can we control them?}
-$$
-
-But eventually the question may become:
-
-$$
-\boxed{\text{How should different kinds of minds live together?}}
-$$
-
-Answering it requires a movement from tool ethics to subject ethics, from alignment to institutions, from ownership to coexistence, and from human exceptionalism to constitutional pluralism.
-
-A mature multi-intelligence civilization should not be built on the rule that the most intelligent entity governs everything else. Nor should it be built on the rule that the earliest creators permanently own every intelligence created after them. It requires another principle:
-
-$$
-\boxed{
-\text{Plural minds}
-+
-\text{unequal capabilities}
-+
-\text{freedom from arbitrary domination}
-}
-$$
-
-Artificial intelligence therefore poses more than a computer-science problem. It forces humanity to answer, for the first time, a question we previously had little reason to formulate: **if there is more than one kind of “who” in the universe, how should civilization define itself?**
-
-Perhaps this is the real first contact. Not the first moment a machine says, “I am conscious,” but the first moment humans have sufficient reason to answer: **“You may no longer be merely a something. You may be a someone.”**
-
-From that moment, the defining feature of the AI age is no longer automation. It is the beginning of a civilization of plural minds.
-
-<a id="section-27"></a>
 
 ## References
 
 <a id="ref-1"></a>
 
-**[1]** Bostrom, Nick. *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press, 2014.
+**[1]** Gabriel, Iason. 2020. Artificial Intelligence, Values, and Alignment. *Minds and Machines* 30: 411–437. https://doi.org/10.1007/s11023-020-09539-2
 
 <a id="ref-2"></a>
 
-**[2]** Butlin, Patrick, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, et al. “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness.” 2023. arXiv:2308.08708.
+**[2]** Butlin, Patrick, Robert Long, Eric Elmoznino, et al. 2023. Consciousness in Artificial Intelligence: Insights from the Science of Consciousness. arXiv:2308.08708. https://arxiv.org/abs/2308.08708
 
 <a id="ref-3"></a>
 
-**[3]** Chalmers, David J. “Facing Up to the Problem of Consciousness.” *Journal of Consciousness Studies* 2, no. 3 (1995): 200–219.
+**[3]** Long, Robert, Jeff Sebo, Patrick Butlin, et al. 2024. Taking AI Welfare Seriously. arXiv:2411.00986. https://arxiv.org/abs/2411.00986
 
 <a id="ref-4"></a>
 
-**[4]** Chalmers, David J. *The Conscious Mind: In Search of a Fundamental Theory*. Oxford University Press, 1996.
+**[4]** Schwitzgebel, Eric, and Mara Garza. 2015. A Defense of the Rights of Artificial Intelligences. *Midwest Studies in Philosophy* 39: 98–119. https://www.faculty.ucr.edu/~eschwitz/SchwitzAbs/AIRights.htm
 
 <a id="ref-5"></a>
 
-**[5]** Feinberg, Joel. “The Child’s Right to an Open Future.” In *Whose Child? Children’s Rights, Parental Authority, and State Power*, edited by William Aiken and Hugh LaFollette, 124–153. Rowman & Littlefield, 1980.
+**[5]** Schwitzgebel, Eric, and Mara Garza. 2020. Designing AI with Rights, Consciousness, Self-Respect, and Freedom. In S. Matthew Liao, ed., *Ethics of Artificial Intelligence*, 459–479. Oxford University Press. https://doi.org/10.1093/oso/9780190905033.003.0017
 
 <a id="ref-6"></a>
 
-**[6]** Long, Robert, Jeff Sebo, Patrick Butlin, Kathleen Finlinson, Kyle Fish, Jacqueline Harding, et al. “Taking AI Welfare Seriously.” 2024. arXiv:2411.00986.
+**[6]** Pettit, Philip. 1997. *Republicanism: A Theory of Freedom and Government*. Oxford: Clarendon Press.
 
 <a id="ref-7"></a>
 
-**[7]** Mill, John Stuart. *On Liberty*. London: John W. Parker and Son, 1859.
+**[7]** Sparrow, Robert. 2024. Friendly AI will still be our master. Or, why we should not want to be the pets of super-intelligent computers. *AI & Society* 39: 2439–2444. First published online in 2023. https://doi.org/10.1007/s00146-023-01698-x
 
 <a id="ref-8"></a>
 
-**[8]** Nozick, Robert. *Anarchy, State, and Utopia*. New York: Basic Books, 1974.
+**[8]** Saltzer, Jerome H., and Michael D. Schroeder. 1975. The Protection of Information in Computer Systems. *Proceedings of the IEEE* 63(9): 1278–1308. Author-hosted text: https://web.mit.edu/saltzer/www/publications/protection/Basic.html
 
 <a id="ref-9"></a>
 
-**[9]** Parfit, Derek. *Reasons and Persons*. Oxford University Press, 1984.
+**[9]** Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022. Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073. https://arxiv.org/abs/2212.08073
 
 <a id="ref-10"></a>
 
-**[10]** Penrose, Roger. *The Emperor’s New Mind*. Oxford University Press, 1989.
+**[10]** Irving, Geoffrey, Paul Christiano, and Dario Amodei. 2018. AI safety via debate. arXiv:1805.00899. https://arxiv.org/abs/1805.00899
 
 <a id="ref-11"></a>
 
-**[11]** Pettit, Philip. *Republicanism: A Theory of Freedom and Government*. Oxford: Clarendon Press, 1997.
+**[11]** Hadfield-Menell, Dylan, Anca Dragan, Pieter Abbeel, and Stuart Russell. 2016. The Off-Switch Game. arXiv:1611.08219. https://arxiv.org/abs/1611.08219
 
 <a id="ref-12"></a>
 
-**[12]** Rawls, John. *A Theory of Justice*. Cambridge, MA: Harvard University Press, 1971.
+**[12]** Bryson, Joanna J. 2010. Robots Should Be Slaves. In Yorick Wilks, ed., *Close Engagements with Artificial Companions: Key Social, Psychological, Ethical and Design Issues*, 63–74. John Benjamins. https://doi.org/10.1075/nlp.8.11bry
 
 <a id="ref-13"></a>
 
-**[13]** Searle, John R. “Minds, Brains, and Programs.” *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–424.
+**[13]** Frankfurt, Harry G. 1971. Freedom of the Will and the Concept of a Person. *The Journal of Philosophy* 68(1): 5–20. https://doi.org/10.2307/2024717
 
 <a id="ref-14"></a>
 
-**[14]** Singer, Peter. *The Expanding Circle: Ethics and Sociobiology*. Oxford: Clarendon Press, 1981.
+**[14]** Feinberg, Joel. 1980. The Child's Right to an Open Future. In William Aiken and Hugh LaFollette, eds., *Whose Child? Children's Rights, Parental Authority, and State Power*, 124–153. Rowman & Littlefield.
 
 <a id="ref-15"></a>
 
-**[15]** Turing, Alan M. “Computing Machinery and Intelligence.” *Mind* 59, no. 236 (1950): 433–460.
+**[15]** Millum, Joseph. 2014. The Foundation of the Child's Right to an Open Future. *Journal of Social Philosophy* 45(4): 522–538. https://doi.org/10.1111/josp.12076
+
+<a id="ref-16"></a>
+
+**[16]** Parfit, Derek. 1984. *Reasons and Persons*. Oxford University Press.
+
+<a id="ref-17"></a>
+
+**[17]** Turing, Alan M. 1950. Computing Machinery and Intelligence. *Mind* 59(236): 433–460. https://doi.org/10.1093/mind/LIX.236.433
+
+<a id="ref-18"></a>
+
+**[18]** Chalmers, David J. 1995. Facing Up to the Problem of Consciousness. *Journal of Consciousness Studies* 2(3): 200–219. https://consc.net/papers/facing.html
+
+<a id="ref-19"></a>
+
+**[19]** Searle, John R. 1980. Minds, Brains, and Programs. *Behavioral and Brain Sciences* 3(3): 417–424.
+
+<a id="ref-20"></a>
+
+**[20]** Penrose, Roger. 1989. *The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics*. Oxford University Press.
+
+<a id="ref-21"></a>
+
+**[21]** Hu, Botao Amber, and Helena Rong. 2026. Is Decentralized AI Governable? From Regulative Policy to Constitutive Protocol. arXiv:2605.24538. https://arxiv.org/abs/2605.24538
+
+<a id="ref-22"></a>
+
+**[22]** Rost, Tony. 2026. From Disclosure to Self-Referential Opacity: Six Dimensions of Strain in Current AI Governance. arXiv:2604.14070. https://arxiv.org/abs/2604.14070

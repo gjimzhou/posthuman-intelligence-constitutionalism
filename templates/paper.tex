@@ -1,0 +1,35 @@
+$if(chinese)$
+\documentclass[11pt,a4paper,fontset=fandol]{ctexart}
+$else$
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+$endif$
+\usepackage[margin=25mm]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{longtable,booktabs,array,calc}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.42em}
+\setlength{\emergencystretch}{2em}
+\linespread{1.05}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\setcounter{secnumdepth}{0}
+\hypersetup{pdftitle={$title$: $subtitle$},pdfauthor={Junliang Zhou}}
+\title{\LARGE\bfseries $title$\par\vspace{0.4em}\large\normalfont $subtitle$}
+\author{Junliang Zhou}
+\date{$date$}
+\begin{document}
+\maketitle
+\begin{abstract}
+$abstract$
+\end{abstract}
+\vspace{0.5em}
+$body$
+\end{document}

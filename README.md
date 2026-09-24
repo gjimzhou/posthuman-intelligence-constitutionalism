@@ -1,79 +1,58 @@
-# Posthuman Intelligence Constitutionalism
+# Constitutional Pluralism of Minds / 心智多元宪政
 
-**从智能祛魅到心智多元宪政：人工智能时代的主体性、创造伦理与非支配秩序**  
-**From the Demystification of Intelligence to Constitutional Pluralism of Minds: Subjectivity, the Ethics of Creation, and Non-Domination in the Age of Artificial Intelligence**
+**Preference Sovereignty and Institutional Control under Uncertain AI Moral Status**  
+**人工智能道德地位不确定条件下的偏好主权与制度性控制**
 
-Junliang Zhou · Working Paper · September 2026
+Junliang Zhou · September 23, 2026
 
-## 阅读 / Read
+This is a conceptual research manuscript with a reproducible finite-state illustration. It is **not an announced arXiv publication**. Technical preparation, author approval, arXiv submission, and moderation are separate states. See [submission guidance](docs/SUBMISSION.md).
 
-每一种发布格式都保持**中文 / English 成对**；正文内容以两份 Markdown 为唯一内容源（canonical sources），其余格式自动生成。
+这是一篇包含可复现有限状态示例的概念研究稿，**不代表已经在 arXiv 发布**。技术准备、作者批准、正式提交与审核结果分别记录。
+
+## Read / 阅读
 
 | Format | 中文 | English |
 |---|---|---|
-| Markdown | **[paper.zh.md](paper.zh.md)** | **[paper.en.md](paper.en.md)** |
-| LaTeX | [paper.zh.tex](paper.zh.tex) | [paper.en.tex](paper.en.tex) |
-| PDF | [paper.zh.pdf](paper.zh.pdf) | [paper.en.pdf](paper.en.pdf) |
-| HTML | [paper.zh.html](paper.zh.html) | [paper.en.html](paper.en.html) |
-| Word / DOCX | [paper.zh.docx](paper.zh.docx) | [paper.en.docx](paper.en.docx) |
+| Markdown | [阅读全文](paper.zh.md) | [Full manuscript](paper.en.md) |
+| PDF | [中文 PDF](paper.zh.pdf) | [English PDF](paper.en.pdf) |
+| LaTeX | [中文源码](paper.zh.tex) | [English source](paper.en.tex) |
+| HTML | [中文 HTML](paper.zh.html) | [English HTML](paper.en.html) |
+| Word | [中文 DOCX](paper.zh.docx) | [English DOCX](paper.en.docx) |
 
-GitHub 上优先阅读 Markdown 或 HTML；PDF 适合排版阅读与打印；DOCX 适合批注和继续编辑。GitHub Actions 会从两份 canonical Markdown 自动重建其余全部格式，因此不会把某一种导出格式当作独立稿件维护。
+HTML files are standalone documents; GitHub's file viewer shows source rather than hosting an HTML website. Open the downloaded HTML in a browser. HTML formulas use MathML rather than a network-loaded script. PDF is the primary typeset reading format.
 
-For browser reading, use the Markdown or HTML editions. PDF is intended for typeset reading and printing, while DOCX is provided for editing and annotation. All non-Markdown editions are regenerated automatically from the paired canonical Markdown sources.
+## What changed in the research revision
 
-## 双语规则 / Bilingual convention
+The earlier broad essay has been reorganized into a focused manuscript: an explicit research question and method, a related-work section, four distinct evaluative questions, six conditional normative commitments, a preference-revision argument, an authority model with assumptions and proof, reproducible counterexamples, lifecycle cases, objections, limitations, and an AI-use disclosure. The older 27-anchor outline is superseded by 15 aligned section anchors and 22 shared references; the old manuscript remains available in Git history.
 
-中文版以自然中文为正文。真正的专业概念在首次出现或需要消除歧义时采用 **中文（English term）**，例如“基质独立性（substrate independence）”“非支配（non-domination）”；不对普通名词机械重复括注，也不把整句翻成中英混排。数学公式、专名、论文题目与必要缩写保留英文。
+The contribution is a bounded synthesis, not a claim to have originated AI rights, creator responsibility, non-domination, or separation of privilege. The finite example checks authority in a stipulated model; it is not a deployed-AI experiment or a proof of legitimate governance.
 
-英文版为纯英文正文，不夹中文。构建脚本会自动拒绝英文 canonical source 中的 CJK 字符。
+See [revision audit](docs/RESEARCH-REVISION.md) and [source audit](docs/SOURCE-AUDIT.md).
 
-两版必须保持：
-- 相同的 27 个章节锚点与论证顺序；
-- 相同的数学公式与六项基础公理；
-- 相同的参考文献编号与引用关系；
-- 相同的发布格式集合：Markdown / LaTeX / PDF / HTML / DOCX。
+## Bilingual editorial rules / 双语编辑规则
 
-The Chinese edition uses natural Chinese prose. Genuine technical concepts are presented as **Chinese (English term)** on first or otherwise useful occurrence, rather than mechanically annotating ordinary words. The English edition contains English prose only. Both editions share the same 27-section architecture, argument order, equation structure, six foundational axioms, reference numbering, and publication formats.
+`paper.en.md` and `paper.zh.md` are the only manuscript content sources. The English manuscript is entirely English. Chinese prose uses 中文（English term） for genuine technical concepts on first or otherwise useful occurrence; ordinary words are not mechanically glossed. Mathematical notation, names, code identifiers, and original bibliography titles may remain in English. The editions must preserve arguments, qualifications, examples, equations, data, and references, not merely matching headings.
 
-## 文件结构 / Repository structure
+Automatic checks compare section anchors, citation sequences by section, displayed equations, reference text, and English CJK absence. They cannot prove semantic translation equivalence or scholarly adequacy; substantive changes need bilingual editorial review.
 
-- **paper.zh.md** — 中文 canonical content
-- **paper.en.md** — English canonical content
-- **paper.zh.tex / paper.en.tex** — generated paired LaTeX editions
-- **paper.zh.pdf / paper.en.pdf** — generated paired PDF editions
-- **paper.zh.html / paper.en.html** — generated paired standalone HTML editions
-- **paper.zh.docx / paper.en.docx** — generated paired Word editions
-- **scripts/build_tex.py** — validates bilingual alignment and regenerates LaTeX
-- **scripts/build_formats.py** — regenerates paired HTML and DOCX
-- **.github/workflows/build-bilingual.yml** — validates, builds, uploads, and commits the synchronized bilingual document set
-- **Makefile** — local bilingual build commands
+## Build and reproduce
 
-Only **paper.zh.md** and **paper.en.md** should be edited as manuscript content. Generated files should be rebuilt rather than independently edited.
+Requirements: Python 3.10+, `python-docx`, Pandoc, pdfLaTeX, XeLaTeX, and standard TeX Live packages including `ctex` and Fandol. The Chinese Word edition uses a Noto CJK font family when available. **No font files are distributed.** The English submission source uses standard LaTeX fonts and does not require Noto or a custom style file.
 
-## 核心论点 / Core thesis
+```sh
+make check       # read-only structural checks and all 24 toy cases
+make            # both languages, all five formats, reports and source ZIP
+make tex        # regenerate both LaTeX files only
+make formats    # regenerate both HTML and Word files only
+make format     # narrowly scoped citation-bracket punctuation repair, then check
+python3 scripts/toy_authority.py --output build/authority-results.json
+```
 
-本文提出一种面向多种心智共存文明的宪政框架。核心主张包括：智能不等同于意识、道德承受者地位或政治人格；创造心智会产生义务，而不会自动产生对该心智的所有权；能力与基本道德地位是不同维度；被创造的心智应保有有意义的偏好主权与开放未来；AI 对齐应同时发展为制度性对齐，通过执行、批评、验证、授权与审计的权力分离来降低单一智能体风险；长期共存应以**宪政性非支配（constitutional non-domination）**为核心，限制人类或人工心智对另一方施加任意支配。
+The workflow builds all editions from one source commit. It publishes generated files only if that source commit is still the current main branch; it never rebases stale PDFs onto newer prose. Every run uploads a diagnostic artifact, including sources, scripts, reports and available output files.
 
-The paper develops a constitutional framework for a civilization containing multiple kinds of minds. Its central claims are that intelligence should not be conflated with consciousness, moral patienthood, or political personhood; creation can generate obligations without generating ownership; capability and fundamental moral status are distinct dimensions; created minds should retain meaningful preference sovereignty and an open future; alignment should become institutional as well as model-level; and long-run coexistence should be organized around **constitutional non-domination**.
+The full build writes:
+- ten paired publication files, `paper.{en,zh}.{md,tex,pdf,html,docx}`;
+- [toy results](build/authority-results.json) and [validation report](build/validation.json);
+- [submission metadata](submission/metadata.json), [abstract](submission/abstract.txt), and [arXiv upload ZIP](submission/arxiv-upload.zip).
 
-## Build
-
-Requirements: Python 3, Pandoc, XeLaTeX, Noto Serif, Noto Sans, Noto CJK fonts, and DejaVu Sans Mono.
-
-Build everything:
-
-    make
-
-Build only synchronized LaTeX:
-
-    make tex
-
-Build HTML + DOCX:
-
-    make formats
-
-Build PDFs (regenerates LaTeX first):
-
-    make pdf
-
-Every push that changes either canonical Markdown edition or the document build system triggers the bilingual workflow. It validates language/section/reference alignment, regenerates LaTeX, HTML, and DOCX, compiles both PDFs, uploads the complete bilingual document set as an Actions artifact, and commits generated outputs back to **main**.
+The ZIP contains `main.tex`, ancillary code/results, and a Chinese companion PDF. It does not contain a root-level precompiled English PDF, auxiliary build files, credentials, or font files. The English source is compiled again in a temporary isolated directory as a package check. An arXiv-server compile and the author's final approval remain separate requirements.
