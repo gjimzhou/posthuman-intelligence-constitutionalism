@@ -11,6 +11,8 @@ This is a conceptual research manuscript with a reproducible finite-state illust
 
 ## Read / 阅读
 
+[Open the reading website / 在线阅读](https://gjimzhou.github.io/posthuman-intelligence-constitutionalism/) · [中文](https://gjimzhou.github.io/posthuman-intelligence-constitutionalism/paper.zh.html) · [English](https://gjimzhou.github.io/posthuman-intelligence-constitutionalism/paper.en.html)
+
 | Format | 中文 | English |
 |---|---|---|
 | Markdown | [阅读全文](paper.zh.md) | [Full manuscript](paper.en.md) |
@@ -19,7 +21,7 @@ This is a conceptual research manuscript with a reproducible finite-state illust
 | HTML | [中文 HTML](paper.zh.html) | [English HTML](paper.en.html) |
 | Word | [中文 DOCX](paper.zh.docx) | [English DOCX](paper.en.docx) |
 
-HTML files are standalone documents; GitHub's file viewer shows source rather than hosting an HTML website. Open the downloaded HTML in a browser. HTML formulas use MathML rather than a network-loaded script. PDF is the primary typeset reading format.
+The reading website hosts both HTML editions. Repository HTML exports remain standalone documents that can also be downloaded and opened locally. HTML formulas use MathML rather than a network-loaded script. PDF is the primary typeset reading format.
 
 ## What changed in the research revision
 
@@ -56,3 +58,9 @@ The full build writes:
 - [submission metadata](submission/metadata.json), [abstract](submission/abstract.txt), and [arXiv upload ZIP](submission/arxiv-upload.zip).
 
 The ZIP contains `main.tex`, ancillary code/results, and a Chinese companion PDF. It does not contain a root-level precompiled English PDF, auxiliary build files, credentials, or font files. The English source is compiled again in a temporary isolated directory as a package check. An arXiv-server compile and the author's final approval remain separate requirements.
+
+## Website maintenance
+
+`python3 site/build.py` stages the homepage, bilingual HTML and PDF/Word downloads in `_site/`. The Pages workflow publishes `main` and republishes after a successful bilingual build, including generated commits made by the build bot. Website-only analytics are injected into the staged HTML; canonical manuscript exports remain unchanged.
+
+GoatCounter uses the owner’s existing endpoint, with `/posthuman-intelligence-constitutionalism/` path prefixes to distinguish this website from other projects. It respects DNT/GPC and excludes query strings. Page-open events measure opens separately from session-deduplicated page statistics; these are not verified identities or exact people counts.
