@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
 OUT.mkdir(exist_ok=True)
 shutil.copy2(ROOT / "site/index.html", OUT / "index.html")
+shutil.copy2(ROOT / "site/rights.html", OUT / "rights.html")
 shutil.copytree(ROOT / "site/assets", OUT / "assets", dirs_exist_ok=True)
 TRACKER = '<script defer src="assets/analytics.js" data-project="posthuman-intelligence-constitutionalism"></script>'
 for lang in ("en", "zh"):

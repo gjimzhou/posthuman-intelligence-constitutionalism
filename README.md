@@ -64,3 +64,9 @@ The ZIP contains `main.tex`, ancillary code/results, and a Chinese companion PDF
 `python3 site/build.py` stages the homepage, bilingual HTML and PDF/Word downloads in `_site/`. The Pages workflow publishes `main` and republishes after a successful bilingual build, including generated commits made by the build bot. Website-only analytics are injected into the staged HTML; canonical manuscript exports remain unchanged.
 
 GoatCounter uses the owner’s existing endpoint, with `/posthuman-intelligence-constitutionalism/` path prefixes to distinguish this website from other projects. It respects DNT/GPC and excludes query strings. Page-open events measure opens separately from session-deduplicated page statistics; these are not verified identities or exact people counts.
+
+## Rights / 权利说明
+
+Original manuscript and editorial expression © 2026 Junliang Zhou, with scholarly quotation and citation welcomed. Reproducibility software is separately [MIT licensed](LICENSE-CODE); it does not license the paper. See [manuscript rights, third-party boundaries and arXiv status](COPYRIGHT.md).
+
+稿件原创表达保留版权，欢迎学术引用与讨论；复现软件单独适用 MIT，不覆盖论文。arXiv 分发许可仍待作者选择。

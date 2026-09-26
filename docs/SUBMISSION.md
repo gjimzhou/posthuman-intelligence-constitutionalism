@@ -44,3 +44,7 @@ arXiv's author self-submission policy and limited proxy arrangements apply. This
 - Proxy submission: https://info.arxiv.org/help/third_party_submission.html
 
 arXiv is not a peer-reviewed journal. Professional formatting and a passing build do not certify scholarly acceptance; originality, substantive research interest and category fit remain subject to moderation.
+
+## Rights in the package
+
+[Manuscript rights](../COPYRIGHT.md) and [MIT code license](../LICENSE-CODE) are packaged in `anc/`. The manuscript contains a matching bilingual notice. These do not select an arXiv distribution license or establish that any publisher commitment has been cleared. Confirm off-repository commitments and the final AI disclosure before submission.

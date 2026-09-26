@@ -8,6 +8,8 @@ on:
       - 'scripts/**'
       - 'templates/**'
       - 'Makefile'
+      - 'COPYRIGHT.md'
+      - 'LICENSE-CODE'
       - '.github/workflows/build-bilingual.yml'
   pull_request:
     paths:
@@ -15,6 +17,8 @@ on:
       - 'scripts/**'
       - 'templates/**'
       - 'Makefile'
+      - 'COPYRIGHT.md'
+      - 'LICENSE-CODE'
       - '.github/workflows/build-bilingual.yml'
   workflow_dispatch:
 
@@ -55,6 +59,8 @@ jobs:
             submission/
             docs/
             README.md
+            COPYRIGHT.md
+            LICENSE-CODE
             Makefile
       - name: Publish synchronized outputs only for the source commit built
         if: success() && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

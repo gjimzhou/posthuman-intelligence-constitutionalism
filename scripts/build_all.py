@@ -221,6 +221,8 @@ def package(papers, report):
                 'suggested_primary_category': 'cs.CY', 'cross_lists': [],
                 'comments': 'Conceptual analysis with a reproducible finite-state illustration; Chinese companion in ancillary files.',
                 'license': None, 'arxiv_id': None,
+                'manuscript_rights': 'Copyright 2026 Junliang Zhou; see COPYRIGHT.md',
+                'code_license': 'MIT; see LICENSE-CODE; manuscript excluded',
                 'status': 'prepared_not_submitted', 'author_final_approval': 'pending',
                 'arxiv_server_compile': 'not tested',
                 'source_compiler': 'pdfLaTeX', 'main_file': 'main.tex'}
@@ -229,11 +231,15 @@ def package(papers, report):
     explanation = ('English main.tex is self-contained and uses pdfLaTeX.\n'
                    'The Chinese PDF is a translation companion, not a second study.\n'
                    'toy_authority.py and authority-results.json reproduce the finite-state illustration.\n'
-                   'No font files, credentials, or independent arXiv submission are included.\n')
+                   'No font files, credentials, or independent arXiv submission are included.\n'
+                   'Manuscript rights: COPYRIGHT.md. Code: LICENSE-CODE (MIT), not the manuscript.\n'
+                   'The arXiv distribution license remains unselected.\n')
     with zipfile.ZipFile(SUBMISSION / 'arxiv-upload.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.write(ROOT / 'paper.en.tex', 'main.tex')
         archive.write(ROOT / 'paper.zh.pdf', 'anc/paper.zh.pdf')
         archive.write(ROOT / 'scripts/toy_authority.py', 'anc/toy_authority.py')
+        archive.write(ROOT / 'COPYRIGHT.md', 'anc/COPYRIGHT.md')
+        archive.write(ROOT / 'LICENSE-CODE', 'anc/LICENSE-CODE')
         archive.write(REPORTS / 'authority-results.json', 'anc/authority-results.json')
         archive.writestr('anc/README.txt', explanation)
     with tempfile.TemporaryDirectory() as directory:
